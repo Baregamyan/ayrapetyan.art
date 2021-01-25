@@ -1,11 +1,13 @@
 section.home
-  .home__about
-    h1.title.title--huge.home__title !{home.title} <small>!{home.profession}</small>
-    p.home__desc #{home.desc}
-    a.button.button--arrow.home__portfolio-link(href=home.portfolio.link target="_blank") #{home.portfolio.text}
-  .swiper-container.home__slider
-    .swiper-wrapper.home__slider-wrapper
-      each slide in home.slides
-        .swiper-slide.home__slide
-          img.home__slide-img(src=`images/${slide.name}.${slide.format}` alt=slide.format width=716 height=811)
+  .home__wrapper
+    .home__about
+      h1.title.title--huge.home__title !{home.title} <small>!{home.profession}</small>
+      p.home__desc #{home.desc}
+      a.button.button--arrow.home__portfolio-link(href=home.portfolio.link) #{home.portfolio.text}
+  .home__slider
+    .swiper-container.home__slider-container
+      .swiper-wrapper.home__slider-wrapper
+        each slide in home.slides
+          .swiper-slide.home__slide
+            img.home__slide-img(src=`images/${slide.name}.${slide.format}` alt=slide.format width=716 height=811)
     .swiper-pagination.home__slider-pagination

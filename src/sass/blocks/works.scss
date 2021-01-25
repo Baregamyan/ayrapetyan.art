@@ -1,5 +1,6 @@
 .works {
   @include container;
+  position: relative;
   flex-direction: column;
   margin-top: auto;
   padding: 10px 0;
@@ -20,11 +21,10 @@
 }
 
 .works__slider {
-  position: relative;
   width: 85vw;
   height: auto;
   max-height: 80%;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .works__slide {
@@ -32,11 +32,17 @@
 }
 
 .works__slider-list {
+  display: flex;
+  align-items: center;
+
   margin: 0;
   padding: 0;
   list-style: none;
 
   margin-bottom: 20px;
+  @media #{$media-tablet}{ 
+    align-items: flex-start;
+  }
 }
 
 .works__link {
@@ -92,7 +98,7 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  bottom: 0;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
 

@@ -3,8 +3,6 @@
   flex-direction: column;
 }
 
-
-
 .model__wrapper {
   display: flex;
   margin: 0 auto;
@@ -15,6 +13,11 @@
 
 .model__text {
   min-width: 300px;
+  max-width: 500px;
+  @media #{$media-tablet} {
+    min-width: initial;
+  }
+  
   &--main {
     margin-right: auto;
     margin-bottom: 50px;

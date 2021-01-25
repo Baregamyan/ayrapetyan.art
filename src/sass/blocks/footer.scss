@@ -49,7 +49,11 @@
     }
   }
   & .footer__socials-link {
-    margin-right: 10px;
+    margin-right: 0;
+    @media #{$media-tablet} {
+      margin-right: 10px;
+
+    }
   }
   &:last-of-type {
     & .footer__socials-link {
