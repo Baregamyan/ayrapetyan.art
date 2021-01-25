@@ -1,0 +1,14 @@
+.title {
+  margin: 0;
+  font-family: $font-family-title;
+  color: $color-title;
+  &--huge {
+    font-size: 70px;
+    @media #{$media-tablet} {
+      font-size: 60px;
+    }
+    & span {
+      color: $color-primary;
+    }
+  }
+}

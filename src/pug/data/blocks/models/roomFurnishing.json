@@ -1,0 +1,29 @@
+{
+  "roomFurnishing": {
+    "breadcrumbs": [
+      {
+        "href": "/models.html",
+        "name": "Models"
+      }, {
+        "href": "",
+        "name": "Room Furnishing"
+      }
+    ],
+    "title": "Room Furnishing",
+    "image": {
+      "name": "room-furnishing-1",
+      "alt": "Room Furnishing Model 1"
+    },
+    "blocks": [
+      {
+        "text": "LOREM-LOREM-LOREM-LOREMLOREM-",
+        "image": {
+          "name": "room-furnishing-2",
+          "alt": "Room Furnishing Model 2",
+          "width": "450",
+          "height": "450"
+        }
+      }
+    ]
+  }
+}

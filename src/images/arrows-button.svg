@@ -1,0 +1,4 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle class="home__portfolio-svg-circle" cx="25" cy="25" r="25" fill="#DD4242"/>
+<path class="home__portfolio-svg-arrow" fill-rule="evenodd" clip-rule="evenodd" d="M19.8263 14.8485L17.7273 16.9475L25.5832 24.8034L17.7273 32.6592L19.8263 34.7583L29.7812 24.8034L19.8263 14.8485ZM27.2475 14.8485L25.1484 16.9475L33.0043 24.8034L25.1484 32.6592L27.2475 34.7583L37.2024 24.8034L27.2475 14.8485Z" fill="white"/>
+</svg>

@@ -1,0 +1,10 @@
+@mixin container {
+  display: flex;
+  box-sizing: border-box;
+  padding-right: $gap;
+  padding-left: $gap;
+  @media #{$media-tablet} {
+    padding-right: $gap-tablet;
+    padding-left: $gap-tablet;
+  }
+}

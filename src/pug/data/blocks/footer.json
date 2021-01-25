@@ -1,0 +1,41 @@
+{
+  "footer": {
+    "link": {
+      "aria": {
+        "label": "Back to the home page"
+      }
+    },
+    "logo": {
+      "name": "logo",
+      "format": "png",
+      "alt": "Yervand's Logo",
+      "width": "59",
+      "height": "79"
+    },
+    "socials": [
+      {
+        "href": "mailto:ains@gmail.com",
+        "aria": {
+          "label": "Email"
+        },
+        "svg": {
+          "id": "email",
+          "viewbox": "0 0 480 480",
+          "width": "30",
+          "height": "30"
+        }
+      }, {
+        "href": "telegram",
+        "aria": {
+          "label": "Telegram"
+        },
+        "svg": {
+          "id": "telegram",
+          "viewbox": "0 0 24 24",
+          "width": "30",
+          "height": "30"
+        }
+      }
+    ]
+  }
+}

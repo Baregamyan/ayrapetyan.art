@@ -1,0 +1,16 @@
+section.works
+  h1.title.title--huge.works__title !{works.title}
+  p.works__desc #{works.desc}
+  a.button.button--arrow.works__more(href=works.more.href) #{works.more.text}
+  .swiper-container.works__slider
+    ul.swiper-wrapper.works__slider-list
+      each work in works.list
+        li.swiper-slide.works__slide
+          a.works__link(href=work.href aria-label=work.aria.label target="_blank")
+            h2.works__name #{work.title}
+            img.works__img(src=`images/${work.name}.png` alt=work.alt width=320 height=400)
+    ul.works__slider-controls
+      each control in works.controls
+        li.works__slider-control
+          button.works__slider-button(class=`works__slider-button--${control.navigation}` type="button") #{control.text}
+

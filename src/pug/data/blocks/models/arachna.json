@@ -1,0 +1,38 @@
+{
+  "arachna": {
+    "breadcrumbs": [
+      {
+        "href": "/models.html",
+        "name": "Models"
+      }, {
+        "href": "",
+        "name": "Elf Warrior"
+      }
+    ],
+    "title": "Arachna",
+    "text": "For Arahna the main idea was personal interpretation of the mythological race of half human half spider.",
+    "image": {
+      "name": "arachna-1",
+      "alt": "Arachna Model 1"
+    },
+    "blocks": [
+      {
+        "text": "With the slight flight of fancy adding horns as a uniqueness of this particular representative of the race, implying some history with the demon race.",
+        "image": {
+          "name": "arachna-2",
+          "alt": "Arachna Model 2",
+          "width": "450",
+          "height": "450"
+        }
+      }, {
+        "text": "Absen of sleeves and tells somewhat of the climate, place the character resides in and person’s taste - fancy sleeve on one side of the arm.",
+        "image": {
+          "name": "arachna-3",
+          "alt": "Arachna Model 3",
+          "width": "450",
+          "height": "450"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+section.resume
+  .resume__content
+    h2.title.title--huge.resume__title #{resume.title}
+    each paragraph in resume.intro
+      p.resume__intro-text !{paragraph.text}
+    ul.resume__blocks
+      each block in resume.blocks
+        li.resume__item
+          h3.resume__subtitle #{block.title}
+          dl.resume__points
+            each item in block.list
+              dt.resume__point-term #{item.term}
+              dd.resume__point-definition !{item.definition}
+  aside.resume__aside
+    .resume__aside-wrapper
+      img.resume__photo(src=`images/${resume.aside.photo.name}.png` alt=resume.aside.photo.alt width=resume.aside.photo.width height=resume.aside.photo.height)
+      p.resume__name #{resume.aside.name}
+      ul.resume__details
+        each detail in resume.aside.details
+          if detail.href
+            li.resume__detail(class=`resume__detail--${detail.modifyer}`)
+              svg.resume__detail-svg(viewBox=detail.svg.viewbox width=detail.svg.width height=detail.svg.height)
+                use(xlink:href=`#${detail.svg.id}`)
+              a.resume__link(href=`${detail.type}:${detail.href}`) #{detail.text}
+          else
+            li.resume__detail(class=`resume__detail--${detail.modifyer}`)
+              svg.resume__detail-svg(viewBox=detail.svg.viewbox width=detail.svg.width height=detail.svg.height)
+                use(xlink:href=`#${detail.svg.id}`)
+              p.resume__detail-text #{detail.text}

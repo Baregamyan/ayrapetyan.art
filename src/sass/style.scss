@@ -1,0 +1,22 @@
+@import 'node_modules/modern-normalize/modern-normalize';
+@import 'node_modules/swiper/swiper.scss';
+@import 'node_modules/lightgallery.js/src/sass/lightgallery.scss';
+@import "common/mixin.scss";
+@import "common/fonts.scss";
+@import "common/vars.scss";
+@import "common/base.scss";
+
+@import "blocks/visually-hidden.scss";
+@import "blocks/button.scss";
+@import "blocks/title.scss";
+@import "blocks/breadcrumbs.scss";
+@import "blocks/site.scss";
+@import "blocks/header.scss";
+@import "blocks/main.scss";
+@import "blocks/nav.scss";
+@import "blocks/home.scss";
+@import "blocks/works.scss";
+@import "blocks/resume.scss";
+@import "blocks/model.scss";
+@import "blocks/models.scss";
+@import "blocks/footer.scss";

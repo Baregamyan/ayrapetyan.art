@@ -1,0 +1,45 @@
+/* Fonts */
+$font-family: "Assistant", Arial, sans-serif;
+$font-family-title: "Poppins", "Arial Black", sans-serif;
+$font-size: 16px;
+$font-weight: 400;
+$line-height: 1.3;
+$letter-spacing: .9px;
+
+$transition: linear 0.2s;
+
+/* Colors*/
+$color-base: #FFF;
+$color-title: #FFF;
+$color-bg: #111319;
+$color-bg-darker: #080a12;
+$color-bg-lighter: #191C26;
+$color-primary: #DD4242;
+$color-hover: darken($color-primary, 15%);
+$color-active: lighten($color-primary, 15%);
+
+/* Dimensions */
+$width-mobile: 320px;
+$width-tablet: 768px;
+$width-desktop: 1440px;
+
+$footer-width: 100px;
+
+$font-size-middle: 16px;
+$font-size-huge: 70px;
+
+/* Media */
+
+/* Mobile-first */
+// $media-mobile: screen and (min-width: $width-mobile);
+// $media-tablet: screen and (min-width: $width-tablet);
+// $media-desktop: screen and (min-width: $width-desktop);
+
+// /* Desktop-first */
+$media-mobile: screen and (max-width: $width-mobile);
+$media-tablet: screen and (max-width: $width-tablet);
+$media-desktop: screen and (max-width: $width-desktop);
+
+/* Gaps */
+$gap: 30px;
+$gap-tablet: 15px;

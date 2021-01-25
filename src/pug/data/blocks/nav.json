@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "aria": {
+      "label": "Main navigation"
+    },
+    "list": [
+      {
+        "href": "/portfolio.html",
+        "name": "Portfolio"
+      }, {
+        "href": "/resume.html",
+        "name": "Resume"
+      }, {
+        "href": "/contacts.html",
+        "name": "Contacts"
+      }
+    ]
+  }
+}

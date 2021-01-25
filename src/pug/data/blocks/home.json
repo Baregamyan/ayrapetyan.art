@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Hi! I’m<br>Yervand<span>.</span>",
+    "profession": "3d artist",
+    "desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
+    "portfolio": {
+      "link": "portfolio.html",
+      "text": "Portfolio"
+    },
+    "slides": [
+      {
+        "name": "tribal-beast-1",
+        "format": "png",
+        "alt": "Beast Model 1"
+      }, {
+        "name": "tribal-beast-2",
+        "format": "png",
+        "alt": "Beast Model 2"
+      }, {
+        "name": "tribal-beast-3",
+        "format": "png",
+        "alt": "Beast Model 3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  max-width: 200px;
+  font-family: $font-family-title;
+  color: white;
+  text-decoration: none;
+  &--arrow {
+    margin-top: 5px;
+    position: relative;
+    &::before {
+      display: inline-block;
+      content: "";
+
+      width: 50px;
+      height: 50px;
+
+      margin-right: 10px;
+
+      vertical-align: middle;
+
+      background-color: transparent;
+
+      background-size: contain;
+
+      background-image: url("/images/arrows-button.svg");
+      @media #{$media-tablet} {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+}

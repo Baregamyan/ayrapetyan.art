@@ -1,0 +1,557 @@
+{
+	"footer": {
+		"link": {
+			"aria": {
+				"label": "Back to the home page"
+			}
+		},
+		"logo": {
+			"name": "logo",
+			"format": "png",
+			"alt": "Yervand's Logo",
+			"width": "59",
+			"height": "79"
+		},
+		"socials": [
+			{
+				"href": "mailto:ains@gmail.com",
+				"aria": {
+					"label": "Email"
+				},
+				"svg": {
+					"id": "email",
+					"viewbox": "0 0 480 480",
+					"width": "30",
+					"height": "30"
+				}
+			},
+			{
+				"href": "telegram",
+				"aria": {
+					"label": "Telegram"
+				},
+				"svg": {
+					"id": "telegram",
+					"viewbox": "0 0 24 24",
+					"width": "30",
+					"height": "30"
+				}
+			}
+		]
+	},
+	"header": {
+		"name": "Yervand Ayrapetyan",
+		"trigger": {
+			"aria": {
+				"label": "Открыть меню навигации",
+				"pressed": "true",
+				"haspopup": "true"
+			}
+		}
+	},
+	"home": {
+		"title": "Hi! I’m<br>Yervand<span>.</span>",
+		"profession": "3d artist",
+		"desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
+		"portfolio": {
+			"link": "portfolio.html",
+			"text": "Portfolio"
+		},
+		"slides": [
+			{
+				"name": "tribal-beast-1",
+				"format": "png",
+				"alt": "Beast Model 1"
+			},
+			{
+				"name": "tribal-beast-2",
+				"format": "png",
+				"alt": "Beast Model 2"
+			},
+			{
+				"name": "tribal-beast-3",
+				"format": "png",
+				"alt": "Beast Model 3"
+			}
+		]
+	},
+	"menu": [
+		{
+			"href": "index.html",
+			"name": "Главная"
+		}
+	],
+	"models": {
+		"title": "Models",
+		"breadcrumbs": [
+			{
+				"href": "",
+				"name": "Models"
+			}
+		]
+	},
+	"nav": {
+		"aria": {
+			"label": "Main navigation"
+		},
+		"list": [
+			{
+				"href": "/portfolio.html",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/resume.html",
+				"name": "Resume"
+			},
+			{
+				"href": "/contacts.html",
+				"name": "Contacts"
+			}
+		]
+	},
+	"resume": {
+		"aside": {
+			"photo": {
+				"name": "yervand",
+				"width": "165",
+				"height": "178",
+				"alt": "Yervan Ayrapetyan's Photo"
+			},
+			"name": "Yervand Ayrapetyan",
+			"profession": "3D Artist",
+			"details": [
+				{
+					"modifyer": "location",
+					"href": false,
+					"text": "Erkrath, NRW, Germany",
+					"svg": {
+						"id": "location",
+						"viewbox": "0 0 15 19",
+						"width": "15",
+						"height": "19"
+					}
+				},
+				{
+					"modifyer": "mail",
+					"type": "mailto",
+					"href": "ains.spear@gmail.com",
+					"text": "ains.spear@gmail.com",
+					"svg": {
+						"id": "mail",
+						"viewbox": "0 0 15 19",
+						"width": "15",
+						"height": "19"
+					}
+				},
+				{
+					"modifyer": "telegram",
+					"type": "tg",
+					"href": "//resolve?domain=+4917621584268",
+					"text": "+4917621584268",
+					"svg": {
+						"id": "telegram",
+						"viewbox": "0 0 15 19",
+						"width": "15",
+						"height": "19"
+					}
+				}
+			]
+		},
+		"title": "Resume",
+		"intro": [
+			{
+				"text": "Greetings, I am 3D artist."
+			},
+			{
+				"text": "My skills mostly lie in creating various 3d models, organic and non-organic."
+			},
+			{
+				"text": "Also proficient in texturing, UV mapping and animations. Working on retopology and optimizing models for them to be ready for games is another expertise of mine."
+			}
+		],
+		"blocks": [
+			{
+				"title": "Education",
+				"list": [
+					{
+						"term": "Bachelor Degree",
+						"definition": "European Regional Academy (Yerevan,Armenia) 2008-2012"
+					},
+					{
+						"term": "Master Degree",
+						"definition": "Technical University of Cologne (Cologne,Germany) 2017-2021"
+					}
+				]
+			},
+			{
+				"title": "Work Experience",
+				"list": [
+					{
+						"term": "June 2010 — August 2010",
+						"definition": "HUV, Web design assistant (Yerevan Armenia)"
+					},
+					{
+						"term": "May 2013 — June 2014",
+						"definition": "Freelance (Uzbekistan, Russia)"
+					},
+					{
+						"term": "July 2015 — September 2015",
+						"definition": "SAB, Game Developer (Tashkent, Uzbekistan)"
+					},
+					{
+						"term": "January 2016",
+						"definition": "Freelance"
+					}
+				]
+			},
+			{
+				"title": "Volunteering",
+				"list": [
+					{
+						"term": "December 2015 – June 2016 ",
+						"definition": "Volunteer at «Ayo» (Fund of Armenian Relief), Project Manager Assistant, Content Creator (Yerevan, Armenia)"
+					},
+					{
+						"term": "June 2016 – October 2016",
+						"definition": "Yerevan Productions,  Graphic Designer (Yerevan Armenia)"
+					},
+					{
+						"term": "November 2015 – November 2016",
+						"definition": "Birthright Armenia, Participation in various community services, forums and excursions (Yerevan, Armenia)"
+					}
+				]
+			},
+			{
+				"title": "Special Skill and Interests",
+				"list": [
+					{
+						"term": "Languages:",
+						"definition": "Russian (fluent), English (fluent), Armenian (basic)"
+					},
+					{
+						"term": "Computer skills:",
+						"definition": "Familiar with: 3Ds Max, Zbrush, Maya, Audacity.<br>Advanced: LibreOffice Writer, LibreOffice Impress, Blender, Photoshop CS6, Krita"
+					},
+					{
+						"term": "Hobbies:",
+						"definition": "Drawing, basketball, swimming, reading novels, playing computer games"
+					}
+				]
+			}
+		]
+	},
+	"works": {
+		"title": "My Latest Works<span>.</span>",
+		"desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
+		"more": {
+			"href": "models.html",
+			"text": "All models"
+		},
+		"list": [
+			{
+				"title": "Tribal Beast",
+				"name": "tribal-beast-1",
+				"alt": "Tribal Beast Model 1",
+				"href": "models/tribal-beast.html",
+				"aria": {
+					"label": "Go to Tribal Beast model page"
+				}
+			},
+			{
+				"title": "Room Furnishing",
+				"name": "room-furnishing-1",
+				"alt": "The Room Furnishing 1",
+				"href": "models/room-furnishing.html",
+				"aria": {
+					"label": "Go to Room Furnishing model page"
+				}
+			},
+			{
+				"title": "Elf Warrior",
+				"name": "elf-warrior-1",
+				"alt": "Beast Model 1",
+				"href": "models/elf-warrior.html",
+				"aria": {
+					"label": "Go to Beast model page"
+				}
+			},
+			{
+				"title": "Arachna",
+				"name": "arachna-1",
+				"alt": "Arachna Model 1",
+				"href": "models/arachna.html",
+				"aria": {
+					"label": "Go to Arachna model page"
+				}
+			},
+			{
+				"title": "Low Poly",
+				"name": "low-poly-1",
+				"alt": "Low Poly Model 1",
+				"href": "models/low-poly.html",
+				"aria": {
+					"label": "Go to Low Poly model page"
+				}
+			},
+			{
+				"title": "Fool's idol",
+				"name": "fools-idol-1",
+				"alt": "Fool's Idol Model 1",
+				"href": "models/fools-idol.html",
+				"aria": {
+					"label": "Go to Fool's Idol model page"
+				}
+			},
+			{
+				"title": "'Chair'",
+				"name": "chair-1",
+				"alt": "Chair Model 1",
+				"href": "models/chair.html",
+				"aria": {
+					"label": "Go to Chair model page"
+				}
+			},
+			{
+				"title": "Revolver",
+				"name": "revolver-1",
+				"alt": "Revolver Model 1",
+				"href": "models/revolver-1.html",
+				"aria": {
+					"label": "Go to Revolver model page"
+				}
+			},
+			{
+				"title": "'Heli'",
+				"name": "heli-1",
+				"alt": "Heli Model 1",
+				"href": "models/heli-1.html",
+				"aria": {
+					"label": "Go to Heli (helicopter) model page"
+				}
+			},
+			{
+				"title": "Monster",
+				"name": "monster-1",
+				"alt": "Monster Model 1",
+				"href": "models/monster-1.html",
+				"aria": {
+					"label": "Go to Monster model page"
+				}
+			}
+		],
+		"controls": [
+			{
+				"navigation": "prev",
+				"text": "<",
+				"aria": {
+					"label": "Previously work"
+				}
+			},
+			{
+				"navigation": "next",
+				"text": ">",
+				"aria": {
+					"label": "Next work"
+				}
+			}
+		]
+	},
+	"arachna": {
+		"breadcrumbs": [
+			{
+				"href": "/models.html",
+				"name": "Models"
+			},
+			{
+				"href": "",
+				"name": "Elf Warrior"
+			}
+		],
+		"title": "Arachna",
+		"text": "For Arahna the main idea was personal interpretation of the mythological race of half human half spider.",
+		"image": {
+			"name": "arachna-1",
+			"alt": "Arachna Model 1"
+		},
+		"blocks": [
+			{
+				"text": "With the slight flight of fancy adding horns as a uniqueness of this particular representative of the race, implying some history with the demon race.",
+				"image": {
+					"name": "arachna-2",
+					"alt": "Arachna Model 2",
+					"width": "450",
+					"height": "450"
+				}
+			},
+			{
+				"text": "Absen of sleeves and tells somewhat of the climate, place the character resides in and person’s taste - fancy sleeve on one side of the arm.",
+				"image": {
+					"name": "arachna-3",
+					"alt": "Arachna Model 3",
+					"width": "450",
+					"height": "450"
+				}
+			}
+		]
+	},
+	"elfWarrior": {
+		"breadcrumbs": [
+			{
+				"href": "/models.html",
+				"name": "Models"
+			},
+			{
+				"href": "",
+				"name": "Elf Warrior"
+			}
+		],
+		"title": "Elf Warrior",
+		"text": "As the name implies original idea was to re-imagine Elves of fables to a more grounded notion, with the addition of race mixes, though taking into consideration supernatural and physical description of this race. The result is a character with a military officer glance.",
+		"image": {
+			"name": "elf-warrior-1",
+			"alt": "Elf Warrior Model 1"
+		},
+		"blocks": [
+			{
+				"text": "Modifications towards agile nature of the Elves and credibility of movement with the armor were a priority.",
+				"image": {
+					"name": "elf-warrior-2",
+					"alt": "Elf Warrior Model 2",
+					"width": "450",
+					"height": "450"
+				}
+			},
+			{
+				"text": "Absen of sleeves and tells somewhat of the climate, place the character resides in and person’s taste - fancy sleeve on one side of the arm.",
+				"image": {
+					"name": "elf-warrior-3",
+					"alt": "Elf Warrior Model 3",
+					"width": "450",
+					"height": "450"
+				}
+			},
+			{
+				"text": "This character was optimized for game implementation. retopology, texturing, UV mapping except for rigging and animations are present in this model.",
+				"image": {
+					"name": "elf-warrior-4",
+					"alt": "Elf Warrior Model 4",
+					"width": "450",
+					"height": "450"
+				}
+			},
+			{
+				"text": "LOREM-LOREM-LOREM-LOREMLOREM-",
+				"image": {
+					"name": "elf-warrior-5",
+					"alt": "Elf Warrior Model 5",
+					"width": "450",
+					"height": "450"
+				}
+			}
+		]
+	},
+	"lowPoly": {
+		"breadcrumbs": [
+			{
+				"href": "/models.html",
+				"name": "Models"
+			},
+			{
+				"href": "",
+				"name": "Low Poly"
+			}
+		],
+		"title": "Low Poly",
+		"text": "The plan for this project was to minimize polygon usage, and create low poly character in a small environment. Simple colors and simple shapes are main points of presentation, with implication of fantasy world theme.",
+		"image": {
+			"name": "low-poly-1",
+			"alt": "Low Poly Model 1"
+		},
+		"blocks": [
+			{
+				"text": "Birds and the cat were small additions to liven the atmosphere. It should give a bit of feel of Lego world.",
+				"image": {
+					"name": "low-poly-2",
+					"alt": "Low Poly Model 2",
+					"width": "450",
+					"height": "450"
+				}
+			},
+			{
+				"text": "The character was rigged and face texture was added to give certain cuteness to it.",
+				"image": {
+					"name": "low-poly-3",
+					"alt": "Low Poly Model 3",
+					"width": "450",
+					"height": "450"
+				}
+			}
+		]
+	},
+	"roomFurnishing": {
+		"breadcrumbs": [
+			{
+				"href": "/models.html",
+				"name": "Models"
+			},
+			{
+				"href": "",
+				"name": "Room Furnishing"
+			}
+		],
+		"title": "Room Furnishing",
+		"image": {
+			"name": "room-furnishing-1",
+			"alt": "Room Furnishing Model 1"
+		},
+		"blocks": [
+			{
+				"text": "LOREM-LOREM-LOREM-LOREMLOREM-",
+				"image": {
+					"name": "room-furnishing-2",
+					"alt": "Room Furnishing Model 2",
+					"width": "450",
+					"height": "450"
+				}
+			}
+		]
+	},
+	"tribalBeast": {
+		"breadcrumbs": [
+			{
+				"href": "/models.html",
+				"name": "Models"
+			},
+			{
+				"href": "",
+				"name": "Tribal Beast"
+			}
+		],
+		"title": "Tribal Beast",
+		"text": "The first idea was of a monster with the large hands accentuating its strength. Along its creation the feeling it gave was of a cunning and ruthless monster, reveling in violence. By the end of the work the idea of tribe-like beast came into mind, with characteristics of a lonely hunter.",
+		"image": {
+			"name": "tribal-beast-1",
+			"alt": "Tribal Beast Model 1"
+		},
+		"blocks": [
+			{
+				"text": "Overall the design represents the archetype of monkey, gorilla specifically. Fur to weather harsh climate, Elongated thin fingers imply at its proficiency in crafting.",
+				"image": {
+					"name": "tribal-beast-2",
+					"alt": "Tribal Beast Model 2",
+					"width": "450",
+					"height": "450"
+				}
+			},
+			{
+				"text": "Proportions of the hands and fingers hint at rapid evolution of species that from more physical approach of action branches into homo sapiens way of progression and paranormal, in which mask plays important role, and more concrete route of illusion magic.",
+				"image": {
+					"name": "tribal-beast-3",
+					"alt": "Tribal Beast Model 3",
+					"width": "450",
+					"height": "450"
+				}
+			}
+		]
+	}
+}

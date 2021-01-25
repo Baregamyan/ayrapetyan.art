@@ -1,0 +1,14 @@
+.site {
+  display: flex;
+  flex-direction: column;
+  padding-left: $footer-width;
+
+  // width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  @media #{$media-tablet} {
+    justify-content: space-between;
+    padding-left: 0;
+  }
+}

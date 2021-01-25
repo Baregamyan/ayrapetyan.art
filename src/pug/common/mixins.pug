@@ -1,0 +1,28 @@
+//- Mixins
+
+//- Breadcrumbs
+mixin breadcrumbs(breadcrumbs, blockName)
+  nav.breadcrumbs(class=`${blockName}__breadcrumbs`)
+    h2.title.breadcrumbs__title.visually-hidden Breadcrumb navigation
+    ul.breadcrumbs__list
+      each breadcrumb in breadcrumbs
+        li.breadcrumbs__item
+          a.breadcrumbs__link(href=breadcrumb.href) #{breadcrumb.name}
+
+//- Model
+mixin model(data)
+  section.model
+    h1.title.title--huge.model__title #{data.title}
+    +breadcrumbs(data.breadcrumbs, "model")
+    .model__wrapper
+      p.model__text.model__text--main #{data.text}
+      a.model__link.model__link--main(href=`/images/${data.image.name}.png` target="_blank")
+        img.model__image(src=`/images/${data.image.name}.png` width=320 height=320 alt=data.image.alt)
+      .model__blocks
+        each block in data.blocks
+          .model__block
+            p.model__text #{block.text}
+            a.model__link(href=`/images/${block.image.name}.png` target="_blank")
+              img.model__image(src=`/images/${block.image.name}.png` width=block.image.width height=block.image.height alt=block.image.alt)
+      if data.animation
+        img.model__animation(src=data.animation.src width=data.animation.width height=data.animation.height alt=data.animation.alt)

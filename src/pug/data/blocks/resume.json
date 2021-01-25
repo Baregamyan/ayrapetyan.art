@@ -1,0 +1,118 @@
+{
+  "resume": {
+    "aside": {
+      "photo": {
+        "name": "yervand",
+        "width": "165",
+        "height": "178",
+        "alt": "Yervan Ayrapetyan's Photo"
+      },
+      "name": "Yervand Ayrapetyan",
+      "profession": "3D Artist",
+      "details": [
+        {
+          "modifyer": "location",
+          "href": false,
+          "text": "Erkrath, NRW, Germany",
+          "svg": {
+            "id": "location",
+            "viewbox": "0 0 15 19",
+            "width": "15",
+            "height": "19"
+          }
+        }, {
+          "modifyer": "mail",
+          "type": "mailto",
+          "href": "ains.spear@gmail.com",
+          "text": "ains.spear@gmail.com",
+          "svg": {
+            "id": "mail",
+            "viewbox": "0 0 15 19",
+            "width": "15",
+            "height": "19"
+          }
+        }, {
+          "modifyer": "telegram",
+          "type": "tg",
+          "href": "//resolve?domain=+4917621584268",
+          "text": "+4917621584268",
+          "svg": {
+            "id": "telegram",
+            "viewbox": "0 0 15 19",
+            "width": "15",
+            "height": "19"
+          }
+        }
+      ]
+    },
+    "title": "Resume",
+    "intro": [
+      {
+        "text": "Greetings, I am 3D artist."
+      }, {
+        "text": "My skills mostly lie in creating various 3d models, organic and non-organic."
+      }, {
+        "text": "Also proficient in texturing, UV mapping and animations. Working on retopology and optimizing models for them to be ready for games is another expertise of mine."
+      }
+    ],
+    "blocks": [
+      {
+        "title": "Education",
+        "list": [
+          {
+            "term": "Bachelor Degree",
+            "definition": "European Regional Academy (Yerevan,Armenia) 2008-2012"
+          }, {
+            "term": "Master Degree",
+            "definition": "Technical University of Cologne (Cologne,Germany) 2017-2021"
+          }
+        ]
+      }, {
+        "title": "Work Experience",
+        "list": [
+          {
+            "term": "June 2010 — August 2010",
+            "definition": "HUV, Web design assistant (Yerevan Armenia)"
+          }, {
+            "term": "May 2013 — June 2014",
+            "definition": "Freelance (Uzbekistan, Russia)"
+          }, {
+            "term": "July 2015 — September 2015",
+            "definition": "SAB, Game Developer (Tashkent, Uzbekistan)"
+          }, {
+            "term": "January 2016",
+            "definition": "Freelance"
+          }
+        ]
+      }, {
+        "title": "Volunteering",
+        "list": [
+          {
+            "term": "December 2015 – June 2016 ",
+            "definition": "Volunteer at «Ayo» (Fund of Armenian Relief), Project Manager Assistant, Content Creator (Yerevan, Armenia)"
+          }, {
+            "term": "June 2016 – October 2016",
+            "definition": "Yerevan Productions,  Graphic Designer (Yerevan Armenia)"
+          }, {
+            "term": "November 2015 – November 2016",
+            "definition": "Birthright Armenia, Participation in various community services, forums and excursions (Yerevan, Armenia)"
+          }
+        ]
+      }, {
+        "title": "Special Skill and Interests",
+        "list": [
+          {
+            "term": "Languages:",
+            "definition": "Russian (fluent), English (fluent), Armenian (basic)"
+          }, {
+            "term": "Computer skills:",
+            "definition": "Familiar with: 3Ds Max, Zbrush, Maya, Audacity.<br>Advanced: LibreOffice Writer, LibreOffice Impress, Blender, Photoshop CS6, Krita"
+          }, {
+            "term": "Hobbies:",
+            "definition": "Drawing, basketball, swimming, reading novels, playing computer games"
+          }
+        ]
+      }
+    ]
+  }
+}

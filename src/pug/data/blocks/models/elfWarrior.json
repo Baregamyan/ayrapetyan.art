@@ -1,0 +1,54 @@
+{
+  "elfWarrior": {
+    "breadcrumbs": [
+      {
+        "href": "/models.html",
+        "name": "Models"
+      }, {
+        "href": "",
+        "name": "Elf Warrior"
+      }
+    ],
+    "title": "Elf Warrior",
+    "text": "As the name implies original idea was to re-imagine Elves of fables to a more grounded notion, with the addition of race mixes, though taking into consideration supernatural and physical description of this race. The result is a character with a military officer glance.",
+    "image": {
+      "name": "elf-warrior-1",
+      "alt": "Elf Warrior Model 1"
+    },
+    "blocks": [
+      {
+        "text": "Modifications towards agile nature of the Elves and credibility of movement with the armor were a priority.",
+        "image": {
+          "name": "elf-warrior-2",
+          "alt": "Elf Warrior Model 2",
+          "width": "450",
+          "height": "450"
+        }
+      }, {
+        "text": "Absen of sleeves and tells somewhat of the climate, place the character resides in and person’s taste - fancy sleeve on one side of the arm.",
+        "image": {
+          "name": "elf-warrior-3",
+          "alt": "Elf Warrior Model 3",
+          "width": "450",
+          "height": "450"
+        }
+      }, {
+        "text": "This character was optimized for game implementation. retopology, texturing, UV mapping except for rigging and animations are present in this model.",
+        "image": {
+          "name": "elf-warrior-4",
+          "alt": "Elf Warrior Model 4",
+          "width": "450",
+          "height": "450"
+        }
+      }, {
+        "text": "LOREM-LOREM-LOREM-LOREMLOREM-",
+        "image": {
+          "name": "elf-warrior-5",
+          "alt": "Elf Warrior Model 5",
+          "width": "450",
+          "height": "450"
+        }
+      }
+    ]
+  }
+}

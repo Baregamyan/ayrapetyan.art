@@ -1,0 +1,7 @@
+.main {
+  margin: auto 0;
+  @media #{$media-tablet} {
+    margin: 0;
+    margin-bottom: auto;
+  }
+}

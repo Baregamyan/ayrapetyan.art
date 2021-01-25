@@ -1,0 +1,9 @@
+footer.footer
+  a.footer__link(href="/")
+    img.footer__logo(src="/images/logo.png", alt="Yervand's Logo")
+  ul.footer__socials
+    each social in footer.socials
+      li.footer__socials-item
+        a.footer__socials-link(href=social.href aria-label=social.aria.label)
+          svg.footer__socials-svg(viewbox=social.svg.viewbox width=social.svg.width height=social.svg.height)
+            use(xlink:href=`#${social.svg.id}`)

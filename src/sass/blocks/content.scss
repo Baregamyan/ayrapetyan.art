@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  @media #{$media-tablet} {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.content__main {
+  flex-grow: 1;
+  order: 2;
+  @media #{$media-tablet} {
+    order: 1;
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "works": {
+    "title": "My Latest Works<span>.</span>",
+    "desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
+    "more": {
+      "href": "models.html",
+      "text": "All models"
+    },
+    "list": [
+      {
+        "title": "Tribal Beast",
+        "name": "tribal-beast-1",
+        "alt": "Tribal Beast Model 1",
+        "href": "models/tribal-beast.html",
+        "aria": {
+          "label": "Go to Tribal Beast model page"
+        }
+      }, {
+        "title": "Room Furnishing",
+        "name": "room-furnishing-1",
+        "alt": "The Room Furnishing 1",
+        "href": "models/room-furnishing.html",
+        "aria": {
+          "label": "Go to Room Furnishing model page"
+        }
+      }, {
+        "title": "Elf Warrior",
+        "name": "elf-warrior-1",
+        "alt": "Beast Model 1",
+        "href": "models/elf-warrior.html",
+        "aria": {
+          "label": "Go to Beast model page"
+        }
+      }, {
+        "title": "Arachna",
+        "name": "arachna-1",
+        "alt": "Arachna Model 1",
+        "href": "models/arachna.html",
+        "aria": {
+          "label": "Go to Arachna model page"
+        }
+      }, {
+        "title": "Low Poly",
+        "name": "low-poly-1",
+        "alt": "Low Poly Model 1",
+        "href": "models/low-poly.html",
+        "aria": {
+          "label": "Go to Low Poly model page"
+        }
+      }, {
+        "title": "Fool's idol",
+        "name": "fools-idol-1",
+        "alt": "Fool's Idol Model 1",
+        "href": "models/fools-idol.html",
+        "aria": {
+          "label": "Go to Fool's Idol model page"
+        }
+      }, {
+        "title": "'Chair'",
+        "name": "chair-1",
+        "alt": "Chair Model 1",
+        "href": "models/chair.html",
+        "aria": {
+          "label": "Go to Chair model page"
+        }
+      }, {
+        "title": "Revolver",
+        "name": "revolver-1",
+        "alt": "Revolver Model 1",
+        "href": "models/revolver-1.html",
+        "aria": {
+          "label": "Go to Revolver model page"
+        }
+      }, {
+        "title": "'Heli'",
+        "name": "heli-1",
+        "alt": "Heli Model 1",
+        "href": "models/heli-1.html",
+        "aria": {
+          "label": "Go to Heli (helicopter) model page"
+        }
+      }, {
+        "title": "Monster",
+        "name": "monster-1",
+        "alt": "Monster Model 1",
+        "href": "models/monster-1.html",
+        "aria": {
+          "label": "Go to Monster model page"
+        }
+      }
+    ],
+    "controls": [
+      {
+        "navigation": "prev",
+        "text": "<",
+        "aria": {
+          "label": "Previously work"
+        }
+      }, {
+        "navigation": "next",
+        "text": ">",
+        "aria": {
+          "label": "Next work"
+        }
+      }
+    ]
+  }
+}
