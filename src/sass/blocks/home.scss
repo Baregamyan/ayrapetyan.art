@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  align-items: center;
   @media #{$media-tablet} {
+    align-items: flex-start;
     flex-direction: column;
   }
   // @include container;
