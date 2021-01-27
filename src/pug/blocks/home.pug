@@ -7,7 +7,7 @@ section.home
   .home__slider
     .swiper-container.home__slider-container
       .swiper-wrapper.home__slider-wrapper
-        each slide in home.slides
+        each slide, index in home.slides
           .swiper-slide.home__slide
-            img.home__slide-img(src=`/images/models/tribal-beast/${slide.name}.png` alt=slide.alt width=716 height=811)
+            +picture(`/images/models/${slide.id}`,`${slide.id}-${index + 1}`, "home__slide-img", slide.format, `${slide.name} ${index + 1}`)
     .swiper-pagination.home__slider-pagination

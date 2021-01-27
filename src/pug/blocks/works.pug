@@ -5,11 +5,11 @@ section.works
   .swiper-container.works__slider
     ul.swiper-wrapper.works__slider-list
       each work, index in works.list
-        - let imgPath = `/images/models/${work.id}/${work.id}-1.png`
+        - let imgPath = `/images/models/${work.id}`
         li.swiper-slide.works__slide
           a.works__link(href=`/models/${work.id}.html` aria-label=`Go to ${work.name} model page`)
             h2.works__name #{work.name}
-            img.works__img(src=imgPath alt=`${work.name}` width=320 height=400)
+            +picture(imgPath,`${work.id}-1`,"works__img","png",`Model ${work.name} 1`)
   ul.works__slider-controls
     each control in works.controls
       li.works__slider-control

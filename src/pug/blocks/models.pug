@@ -3,8 +3,8 @@ section.models
   +breadcrumbs(models.breadcrumbs)
   ul.models__list
     each model, index in works.list
-      - let imagePath = `/images/models/${model.id}/${model.id}-1.png`
+      - let imagePath = `/images/models/${model.id}`
       li.models__item
         a.models__link(href=`/models/${model.id}.html` aria-label=`Go to ${model.name}`)
           h3.models__subtitle #{model.name}
-          img.models__img(src=imagePath alt=`Model ${model.name} 1` width=320 height=400)
+          +picture(imagePath,`${model.id}-1`,"models__img","png",`Model ${model.name} 1`)

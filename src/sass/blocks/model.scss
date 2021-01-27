@@ -16,6 +16,7 @@
   max-width: 500px;
   @media #{$media-tablet} {
     min-width: initial;
+    width: 60%;
   }
   
   &--main {
@@ -34,7 +35,7 @@
   padding-right: 0;
   padding-left: 15px;
   &--main {
-    width: 60%;
+    width: 100%;
     max-width: initial;
     margin-bottom: 100px;
     padding: 0;

@@ -9,17 +9,17 @@
     },
     "slides": [
       {
-        "name": "tribal-beast-1",
-        "format": "png",
-        "alt": "Tribal Beast Model 1"
+        "id": "tribal-beast",
+        "name": "Tribal Beast",
+        "format": "png"
       }, {
+        "id": "tribal-beast",
         "name": "tribal-beast-2",
-        "format": "png",
-        "alt": "Tribal Beast Model 2"
+        "format": "png"
       }, {
+        "id": "tribal-beast",
         "name": "tribal-beast-3",
-        "format": "png",
-        "alt": "Tribal Beast Model 3"
+        "format": "png"
       }
     ]
   }

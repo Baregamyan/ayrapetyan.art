@@ -14,7 +14,7 @@
     },
     "socials": [
       {
-        "href": "mailto:ains@gmail.com",
+        "href": "mailto:ains.grave@gmail.com",
         "aria": {
           "label": "Email"
         },
@@ -25,7 +25,7 @@
           "height": "30"
         }
       }, {
-        "href": "tg://resolve?domain=baregamyan",
+        "href": "tg://resolve?domain=AinsGrave",
         "aria": {
           "label": "Telegram"
         },

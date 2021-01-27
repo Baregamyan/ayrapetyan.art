@@ -1,6 +1,6 @@
 //- Mixins
 
-//- Breadcrumbs
+//- Breadcrumbs layout for models and model pages
 mixin breadcrumbs(breadcrumbs)
   nav.breadcrumbs
     h2.title.breadcrumbs__title.visually-hidden Breadcrumb navigation
@@ -9,7 +9,7 @@ mixin breadcrumbs(breadcrumbs)
         li.breadcrumbs__item
           a.breadcrumbs__link(href=breadcrumb.href) #{breadcrumb.name}
 
-//- Model
+//- Model layout for model page
 mixin model(model)
   section.model
     h1.title.title--huge.model__title #{model.name}
@@ -17,11 +17,31 @@ mixin model(model)
     .model__wrapper
       p.model__text.model__text--main #{model.text}
       a.model__link.model__link--main(href=`/images/models/${model.id}/${model.id}-1.png` target="_blank")
-        img.model__image(src=`/images/models/${model.id}/${model.id}-1.png` width=320 height=320 alt=`${model.name} Model`)
+        +picture(`/images/models/${model.id}`, `${model.id}-1`, "model__image", "png", `Model ${model.alt} 1`)
       .model__blocks
         each block, index in model.blocks
           .model__block
             p.model__text #{block.text}
-            - let imageSrc = `/images/models/${model.id}/${model.id}-${index + 2}.png`
-            a.model__link(href=imageSrc target="_blank")
-              img.model__image(src=imageSrc width=320 height=320 alt=`${model.name} Model ${index + 2}`)
+            - let imageSrc = `/images/models/${model.id}`
+            a.model__link(href=`${imageSrc}-${index + 2}-desktop@2x.png` target="_blank")
+              +picture(imageSrc, `${model.id}-${index + 2}`, `model__image`, 'png', `${model.name} Model ${index + 2}`)
+
+//- Picture tag for image
+mixin picture(path, pictureName, className, format, alt)
+  picture
+    source(type="image/webp" media="(min-width: 1440px)" srcset=`${path}/${pictureName}-desktop.webp 1x,
+    ${path}/${pictureName}-desktop.webp 2x`)
+
+    source(type="image/webp" media="(min-width: 768px)" srcset=`${path}/${pictureName}-tablet.webp 1x,
+    ${path}/${pictureName}-tablet.webp 2x`)
+
+    source(type="image/webp" srcset=`${path}/${pictureName}-mobile.webp 1x,
+    ${path}/${pictureName}-mobile@2x.webp 2x`)
+
+    source(media="(min-width: 1440px)" srcset=`${path}/${pictureName}-desktop@2x.${format} 1x,
+    ${path}/${pictureName}-desktop.${format} 2x`)
+
+    source(media="(min-width: 786px)" srcset=`${path}/${pictureName}-desktop.${format} 1x,
+    ${path}/${pictureName}-desktop.${format} 2x`)
+
+    img(class=className src=`${path}/${pictureName}-mobile@1x.${format}` srcset=`${path}/${pictureName}-mobile@2x.${format}` alt=alt)
