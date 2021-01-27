@@ -1,5 +1,7 @@
 {
   "lowPoly": {
+    "id": "low-poly",
+    "name": "Low Poly",
     "breadcrumbs": [
       {
         "href": "/models.html",
@@ -9,29 +11,12 @@
         "name": "Low Poly"
       }
     ],
-    "title": "Low Poly",
     "text": "The plan for this project was to minimize polygon usage, and create low poly character in a small environment. Simple colors and simple shapes are main points of presentation, with implication of fantasy world theme.",
-    "image": {
-      "name": "low-poly-1",
-      "alt": "Low Poly Model 1"
-    },
     "blocks": [
       {
-        "text": "Birds and the cat were small additions to liven the atmosphere. It should give a bit of feel of Lego world.",
-        "image": {
-          "name": "low-poly-2",
-          "alt": "Low Poly Model 2",
-          "width": "450",
-          "height": "450"
-        }
+        "text": "Birds and the cat were small additions to liven the atmosphere. It should give a bit of feel of Lego world."
       }, {
-        "text": "The character was rigged and face texture was added to give certain cuteness to it.",
-        "image": {
-          "name": "low-poly-3",
-          "alt": "Low Poly Model 3",
-          "width": "450",
-          "height": "450"
-        }
+        "text": "The character was rigged and face texture was added to give certain cuteness to it."
       }
     ]
   }

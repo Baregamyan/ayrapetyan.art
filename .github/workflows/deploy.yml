@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  pull__request:
+  push:
+    branches:
+      - master
+
+jobs: 
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actons/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+      - run: set -eu
+      - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
+      - run: chmod 600 "$HOME/.ssh/key"
+      - run: npm ci
+      - run: npm run build
+      - run: cd dist && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . arsen@ayrapetyan.art:/var/www/ayrapetyan.art/

@@ -11,6 +11,7 @@
   margin-right: 100px;
   order: 1;
   @media #{$media-tablet} {
+    margin-right: 0;
     order: 2;
   }
 }
@@ -26,6 +27,7 @@
   color: white;
   @media #{$media-tablet} {
     margin: 20px auto;
+    width: initial;
   }
 }
 

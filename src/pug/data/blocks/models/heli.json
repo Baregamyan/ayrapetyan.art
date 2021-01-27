@@ -1,0 +1,21 @@
+{
+  "heli": {
+    "id": "heli",
+    "name": "'Heli'",
+    "breadcrumbs": [
+      {
+        "href": "/models.html",
+        "name": "Models"
+      }, {
+        "href": "",
+        "name": "'Heli'"
+      }
+    ],
+    "text": "The main idea of the creation of this model was to imagine how advanced helicopters will be in a not distant future.",
+    "blocks": [
+      {
+        "text": "Though mostly project wasn’t finished, the base and parts of the model are optimized."
+      }
+    ]
+  }
+}

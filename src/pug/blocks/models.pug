@@ -1,9 +1,10 @@
 section.models
   h1.title.title--huge.models__title #{models.title}
-  +breadcrumbs(models.breadcrumbs, "models")
+  +breadcrumbs(models.breadcrumbs)
   ul.models__list
-    each model in works.list
+    each model, index in works.list
+      - let imagePath = `/images/models/${model.id}/${model.id}-1.png`
       li.models__item
-        a.models__link(href=model.href aria-label=model.aria.label)
-          h3.models__subtitle #{model.title}
-          img.models__img(src=`images/${model.name}.png` alt=model.alt width=320 height=400)
+        a.models__link(href=`/models/${model.id}.html` aria-label=`Go to ${model.name}`)
+          h3.models__subtitle #{model.name}
+          img.models__img(src=imagePath alt=`Model ${model.name} 1` width=320 height=400)

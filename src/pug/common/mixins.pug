@@ -1,8 +1,8 @@
 //- Mixins
 
 //- Breadcrumbs
-mixin breadcrumbs(breadcrumbs, blockName)
-  nav.breadcrumbs(class=`${blockName}__breadcrumbs`)
+mixin breadcrumbs(breadcrumbs)
+  nav.breadcrumbs
     h2.title.breadcrumbs__title.visually-hidden Breadcrumb navigation
     ul.breadcrumbs__list
       each breadcrumb in breadcrumbs
@@ -10,19 +10,18 @@ mixin breadcrumbs(breadcrumbs, blockName)
           a.breadcrumbs__link(href=breadcrumb.href) #{breadcrumb.name}
 
 //- Model
-mixin model(data)
+mixin model(model)
   section.model
-    h1.title.title--huge.model__title #{data.title}
-    +breadcrumbs(data.breadcrumbs, "model")
+    h1.title.title--huge.model__title #{model.name}
+    +breadcrumbs(model.breadcrumbs)
     .model__wrapper
-      p.model__text.model__text--main #{data.text}
-      a.model__link.model__link--main(href=`/images/${data.image.name}.png` target="_blank")
-        img.model__image(src=`/images/${data.image.name}.png` width=320 height=320 alt=data.image.alt)
+      p.model__text.model__text--main #{model.text}
+      a.model__link.model__link--main(href=`/images/models/${model.id}/${model.id}-1.png` target="_blank")
+        img.model__image(src=`/images/models/${model.id}/${model.id}-1.png` width=320 height=320 alt=`${model.name} Model`)
       .model__blocks
-        each block in data.blocks
+        each block, index in model.blocks
           .model__block
             p.model__text #{block.text}
-            a.model__link(href=`/images/${block.image.name}.png` target="_blank")
-              img.model__image(src=`/images/${block.image.name}.png` width=block.image.width height=block.image.height alt=block.image.alt)
-      if data.animation
-        img.model__animation(src=data.animation.src width=data.animation.width height=data.animation.height alt=data.animation.alt)
+            - let imageSrc = `/images/models/${model.id}/${model.id}-${index + 2}.png`
+            a.model__link(href=imageSrc target="_blank")
+              img.model__image(src=imageSrc width=320 height=320 alt=`${model.name} Model ${index + 2}`)

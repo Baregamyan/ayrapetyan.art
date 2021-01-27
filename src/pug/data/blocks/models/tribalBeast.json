@@ -1,5 +1,7 @@
 {
   "tribalBeast": {
+    "id": "tribal-beast",
+    "name": "Tribal Beast",
     "breadcrumbs": [
       {
         "href": "/models.html",
@@ -9,29 +11,12 @@
         "name": "Tribal Beast"
       }
     ],
-    "title": "Tribal Beast",
     "text": "The first idea was of a monster with the large hands accentuating its strength. Along its creation the feeling it gave was of a cunning and ruthless monster, reveling in violence. By the end of the work the idea of tribe-like beast came into mind, with characteristics of a lonely hunter.",
-    "image": {
-      "name": "tribal-beast-1",
-      "alt": "Tribal Beast Model 1"
-    },
     "blocks": [
       {
-        "text": "Overall the design represents the archetype of monkey, gorilla specifically. Fur to weather harsh climate, Elongated thin fingers imply at its proficiency in crafting.",
-        "image": {
-          "name": "tribal-beast-2",
-          "alt": "Tribal Beast Model 2",
-          "width": "450",
-          "height": "450"
-        }
+        "text": "Overall the design represents the archetype of monkey, gorilla specifically. Fur to weather harsh climate, Elongated thin fingers imply at its proficiency in crafting."
       }, {
-        "text": "Proportions of the hands and fingers hint at rapid evolution of species that from more physical approach of action branches into homo sapiens way of progression and paranormal, in which mask plays important role, and more concrete route of illusion magic.",
-        "image": {
-          "name": "tribal-beast-3",
-          "alt": "Tribal Beast Model 3",
-          "width": "450",
-          "height": "450"
-        }
+        "text": "Proportions of the hands and fingers hint at rapid evolution of species that from more physical approach of action branches into homo sapiens way of progression and paranormal, in which mask plays important role, and more concrete route of illusion magic."
       }
     ]
   }

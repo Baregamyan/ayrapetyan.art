@@ -1,0 +1,23 @@
+{
+  "chair": {
+    "id": "chair",
+    "name": "'Chair'",
+    "breadcrumbs": [
+      {
+        "href": "/models.html",
+        "name": "Models"
+      }, {
+        "href": "",
+        "name": "'Chair'"
+      }
+    ],
+    "text": "lorem",
+    "blocks": [
+      {
+        "text": "The main goal was to reimagine the boss of the game, trying to raise the level of detail and possibly incorporating more lore aspect into the model. Another point that was tried to be invoked is   sense of nastalgia."
+      }, {
+        "text": "Another point that was tried to be invoked is sense of nastalgia. Memories such as movements, visuals remind of those times, and in case of this a bit of rigidness as a puppet, no facial movement, 80% resemblance of attire. Magic invocation is also part of it."
+      }
+    ]
+  }
+}

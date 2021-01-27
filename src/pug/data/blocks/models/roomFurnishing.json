@@ -1,5 +1,7 @@
 {
   "roomFurnishing": {
+    "id": "room-furnishing",
+    "name": "Room Furnishing",
     "breadcrumbs": [
       {
         "href": "/models.html",
@@ -9,20 +11,10 @@
         "name": "Room Furnishing"
       }
     ],
-    "title": "Room Furnishing",
-    "image": {
-      "name": "room-furnishing-1",
-      "alt": "Room Furnishing Model 1"
-    },
+    "text": "The idea for this project is to create relaxed room for a supposed family.",
     "blocks": [
       {
-        "text": "LOREM-LOREM-LOREM-LOREMLOREM-",
-        "image": {
-          "name": "room-furnishing-2",
-          "alt": "Room Furnishing Model 2",
-          "width": "450",
-          "height": "450"
-        }
+        "text": "Some additional objects, details, unique items were added to give it homely and a bit personal feel. There is no lighting and textures as it is mostly also a training on optimization of a high detail room. The first phase of the project is finished."
       }
     ]
   }

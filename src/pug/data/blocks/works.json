@@ -8,82 +8,62 @@
     },
     "list": [
       {
-        "title": "Tribal Beast",
-        "name": "tribal-beast-1",
-        "alt": "Tribal Beast Model 1",
-        "href": "models/tribal-beast.html",
+        "name": "Tribal Beast",
+        "id": "tribal-beast",
         "aria": {
           "label": "Go to Tribal Beast model page"
         }
       }, {
-        "title": "Room Furnishing",
-        "name": "room-furnishing-1",
-        "alt": "The Room Furnishing 1",
-        "href": "models/room-furnishing.html",
+        "name": "Room Furnishing",
+        "id": "room-furnishing",
         "aria": {
           "label": "Go to Room Furnishing model page"
         }
       }, {
-        "title": "Elf Warrior",
-        "name": "elf-warrior-1",
-        "alt": "Beast Model 1",
-        "href": "models/elf-warrior.html",
+        "name": "Elf Warrior",
+        "id": "elf-warrior",
         "aria": {
           "label": "Go to Beast model page"
         }
       }, {
-        "title": "Arachna",
-        "name": "arachna-1",
-        "alt": "Arachna Model 1",
-        "href": "models/arachna.html",
+        "name": "Arachna",
+        "id": "arachna",
         "aria": {
           "label": "Go to Arachna model page"
         }
       }, {
-        "title": "Low Poly",
-        "name": "low-poly-1",
-        "alt": "Low Poly Model 1",
-        "href": "models/low-poly.html",
+        "name": "Low Poly",
+        "id": "low-poly",
         "aria": {
           "label": "Go to Low Poly model page"
         }
       }, {
-        "title": "Fool's idol",
-        "name": "fools-idol-1",
-        "alt": "Fool's Idol Model 1",
-        "href": "models/fools-idol.html",
+        "name": "Fool's idol",
+        "id": "fools-idol",
         "aria": {
           "label": "Go to Fool's Idol model page"
         }
       }, {
-        "title": "'Chair'",
-        "name": "chair-1",
-        "alt": "Chair Model 1",
-        "href": "models/chair.html",
+        "name": "'Chair'",
+        "id": "chair",
         "aria": {
           "label": "Go to Chair model page"
         }
       }, {
-        "title": "Revolver",
-        "name": "revolver-1",
-        "alt": "Revolver Model 1",
-        "href": "models/revolver-1.html",
+        "name": "Revolver",
+        "id": "revolver",
         "aria": {
           "label": "Go to Revolver model page"
         }
       }, {
-        "title": "'Heli'",
-        "name": "heli-1",
-        "alt": "Heli Model 1",
-        "href": "models/heli-1.html",
+        "name": "'Heli'",
+        "id": "heli",
         "aria": {
           "label": "Go to Heli (helicopter) model page"
         }
       }, {
-        "title": "Monster",
-        "name": "monster-1",
-        "alt": "Monster Model 1",
-        "href": "models/monster-1.html",
+        "name": "Monster",
+        "id": "monster",
         "aria": {
           "label": "Go to Monster model page"
         }

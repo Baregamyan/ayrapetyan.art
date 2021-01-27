@@ -1,0 +1,21 @@
+{
+  "monster": {
+    "id": "monster",
+    "name": "Monster",
+    "breadcrumbs": [
+      {
+        "href": "/models.html",
+        "name": "Models"
+      }, {
+        "href": "",
+        "name": "Monster"
+      }
+    ],
+    "text": "Main point of this model was to instill fear and some form of disgust without relying on Lovecraftian style of horror.",
+    "blocks": [
+      {
+        "text": "Imagining it in a room with a viewer expecting said reations. Another point of the work was to use as less"
+      }
+    ]
+  }
+}
