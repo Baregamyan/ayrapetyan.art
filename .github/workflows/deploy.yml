@@ -1,12 +1,11 @@
-name: Deploy
+me: Deploy
 
 on:
-  pull__request:
   push:
     branches:
       - master
 
-jobs: 
+jobs:
   deploy:
     runs-on: ubuntu-latest
     strategy:
@@ -14,12 +13,16 @@ jobs:
         node-version: [12.x]
     steps:
       - uses: actions/checkout@v2
-      - uses: actons/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      # Setup key
       - run: set -eu
+      - run: mkdir "$HOME/.ssh"
       - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
+      # Build
       - run: npm ci
       - run: npm run build
+      # Deploy
       - run: cd dist && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . arsen@ayrapetyan.art:/var/www/ayrapetyan.art/
