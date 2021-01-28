@@ -174,8 +174,8 @@ const rsyncDeploy = () => {
   return src(`${dirs.dest}/**`)
     .pipe(rsync({
       root: 'build/',
-      hostname: 'baregamyan.com',
-      destination: '/var/www/baregamyan.com/'
+      hostname: 'ayrapetyan.art',
+      destination: '/var/www/ayrapetyan.art/'
     }))
 };
 
