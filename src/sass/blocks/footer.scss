@@ -18,7 +18,8 @@
     max-width: initial;
     width: 100%;
     order: 2;
-    height: 80px;
+    min-height: 80px;
+    max-height: 120px;
   }
 }
 
