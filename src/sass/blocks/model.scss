@@ -15,13 +15,17 @@
   min-width: 300px;
   max-width: 500px;
   @media #{$media-tablet} {
+    max-width: initial;
     min-width: initial;
-    width: 60%;
+    width: 100%;
   }
   
   &--main {
     margin-right: auto;
     margin-bottom: 50px;
+    @media #{$media-tablet} {
+      margin-right: 0;
+    }
   }
 }
 
@@ -72,9 +76,15 @@
   margin-bottom: 100px;
   &:nth-child(2n) {
     flex-direction: row-reverse;
+    @media #{$media-tablet} {
+      flex-direction: column;
+    }
     & .model__link {
       padding-right: 15px;
       padding-left: 0;
     }
+  }
+  @media #{$media-tablet} {
+    flex-direction: column;
   }
 }
