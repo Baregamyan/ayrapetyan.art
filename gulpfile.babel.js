@@ -175,7 +175,10 @@ const rsyncDeploy = () => {
     .pipe(rsync({
       root: 'build/',
       hostname: 'ayrapetyan.art',
-      destination: '/var/www/ayrapetyan.art/'
+      destination: '/var/www/ayrapetyan.art/',
+      compress: true,
+      archive: true,
+      delete: true
     }))
 };
 
