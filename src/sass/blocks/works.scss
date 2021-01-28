@@ -85,6 +85,9 @@
 .works__slide {
   & .works__img {
     transform: scale(0.8);
+    @media #{$media-mobile} {
+      transform: initial;
+    }
   }
   &--active {
     & .works__link {
