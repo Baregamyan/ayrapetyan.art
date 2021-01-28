@@ -22,9 +22,15 @@
 
 .works__slider {
   width: 85vw;
+  min-height: 200px;
   height: auto;
   max-height: 80%;
   padding-bottom: 15px;
+  min-height: 480px;
+
+  @media #{$media-tablet} {
+    min-height: initial;
+  }
 }
 
 .works__slide {
