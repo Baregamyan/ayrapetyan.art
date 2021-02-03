@@ -11,12 +11,12 @@
         "name": "'Chair'"
       }
     ],
-    "text": "lorem",
+    "text": "Original idea was to create photorealistic simple chair, but as most other projects it grew a bit into small research in node texture experimentation that is present in Blender software.",
     "blocks": [
       {
-        "text": "The main goal was to reimagine the boss of the game, trying to raise the level of detail and possibly incorporating more lore aspect into the model. Another point that was tried to be invoked is   sense of nastalgia."
+        "text": "The chair and nearby objects should invoke certain comfiness and small desire to sit, relax and sip some of the tea."
       }, {
-        "text": "Another point that was tried to be invoked is sense of nastalgia. Memories such as movements, visuals remind of those times, and in case of this a bit of rigidness as a puppet, no facial movement, 80% resemblance of attire. Magic invocation is also part of it."
+        "text": "Design wise it may confuse viewer as the design of table and chair varies, former is of feeling simple grandmotherly tea set, the latter of mid-tier level of design pompousness."
       }
     ]
   }
