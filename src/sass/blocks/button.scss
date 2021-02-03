@@ -4,6 +4,7 @@
   font-family: $font-family-title;
   color: white;
   text-decoration: none;
+  transition: $transition;
   &--arrow {
     margin-top: 5px;
     position: relative;

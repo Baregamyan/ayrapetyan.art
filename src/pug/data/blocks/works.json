@@ -3,7 +3,7 @@
     "title": "My Latest Works<span>.</span>",
     "desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
     "more": {
-      "href": "models.html",
+      "href": "/models/",
       "text": "All models"
     },
     "list": [
