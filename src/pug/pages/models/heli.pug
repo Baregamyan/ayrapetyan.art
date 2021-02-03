@@ -3,13 +3,14 @@ extends ../../common/layout
 block vars
   -
     const data = {
-      href: "models/tribal-beast.html",
-      main: true,
-      title: "Gulp Starter",
-      description: "Gulp Starter project",
-      keywords: "gulp, pug, scss, json",
-      url: "",
-      image: "og-logo"
+      href: `models/${heli.id}.html`,
+      main: false,
+      title: `${heli.title} Models - Yervand Ayrapetyan`,
+      description: `Yervand Ayrapetyan's ${heli.title} model`,
+      keywords: `${heli.title}, 3D Model, Yervand Ayrapetyan`,
+      url: `http://ayrapetyan.art/models/${heli.id}.html`,
+      image: "og",
+      name: "Yervand Ayrapetyan's web-site"
     }
 
 block content
