@@ -64,7 +64,7 @@ views: {
   },
   sitemap: {
     root: `${dirs.src}/sitemap.xml`,
-    save: `${dirs.sest}/`
+    save: `${dirs.dest}/`
   }
 };
 
@@ -174,7 +174,7 @@ const fonts = () => {
     .pipe(dest(`${dirs.dest}/fonts/`))
 };
 
-const sitemap = () => {
+export const sitemap = () => {
   return src(`${path.sitemap.root}`)
     .pipe(dest(`${path.sitemap.save}`))
 };
@@ -204,7 +204,7 @@ export const start = series(fonts, json, sprite, parallel(styles, views, scripts
 /**
  * Tasks for build
  */
-export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts,sitemap));
+export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts, sitemap));
 
 export const deploy = series(build, rsyncDeploy);
 
