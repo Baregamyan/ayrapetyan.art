@@ -61,6 +61,10 @@ views: {
   images: {
     root: `${dirs.src}/images/`,
     save: `${dirs.dest}/images/`
+  },
+  sitemap: {
+    root: `${dirs.src}/sitemap.xml`,
+    save: `${dirs.sest}/`
   }
 };
 
@@ -170,6 +174,12 @@ const fonts = () => {
     .pipe(dest(`${dirs.dest}/fonts/`))
 };
 
+const sitemap = () => {
+  return src(`${path.sitemap.root}`)
+    .pipe(dest(`${path.sitemap.save}`))
+};
+
+
 const rsyncDeploy = () => {
   return src(`${dirs.dest}/**`)
     .pipe(rsync({
@@ -194,7 +204,7 @@ export const start = series(fonts, json, sprite, parallel(styles, views, scripts
 /**
  * Tasks for build
  */
-export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts));
+export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts,sitemap));
 
 export const deploy = series(build, rsyncDeploy);
 
