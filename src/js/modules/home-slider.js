@@ -9,12 +9,9 @@ const homeSlider = new Swiper('.home__slider-container', {
     delay: 5000,
   },
   pagination: {
-    el: '.home__slider-pagination',
-    type: 'bullets',
-    bulletClass: 'home__slider-bullet',
-    bulletActiveClass: 'home__slider-bullet--current',
-    bulletElement: 'button',
-    clickable: true
+    el: '.home__slider-progressbar',
+    type: 'progressbar',
+    progressbarFillClass: 'home__slider-progressbar-fill'
   }
 });
 

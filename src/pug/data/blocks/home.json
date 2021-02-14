@@ -13,12 +13,40 @@
         "name": "Tribal Beast",
         "format": "png"
       }, {
-        "id": "tribal-beast",
-        "name": "tribal-beast-2",
+        "name": "Room Furnishing",
+        "id": "room-furnishing",
         "format": "png"
       }, {
-        "id": "tribal-beast",
-        "name": "tribal-beast-3",
+        "name": "Elf Warrior",
+        "id": "elf-warrior",
+        "format": "png"
+      }, {
+        "name": "Arachna",
+        "id": "arachna",
+        "format": "png"
+      }, {
+        "name": "Low Poly",
+        "id": "low-poly",
+        "format": "png"
+      }, {
+        "name": "Fool's idol",
+        "id": "fools-idol",
+        "format": "png"
+      }, {
+        "name": "'Chair'",
+        "id": "chair",
+        "format": "png"
+      }, {
+        "name": "Revolver",
+        "id": "revolver",
+        "format": "png"
+      }, {
+        "name": "'Heli'",
+        "id": "heli",
+        "format": "png"
+      }, {
+        "name": "Monster",
+        "id": "monster",
         "format": "png"
       }
     ]
