@@ -58,6 +58,7 @@
     "watch": "gulp devWatch",
     "ghDeploy": "gh-pages -d build",
     "deploy": "gulp deploy",
+    "devDeploy": "gulp devDeploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

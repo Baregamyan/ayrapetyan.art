@@ -192,6 +192,18 @@ const rsyncDeploy = () => {
     }))
 };
 
+const rsyncDevDeploy = () => {
+  return src(`${dirs.dest}/**`)
+    .pipe(rsync({
+      root: 'build/',
+      hostname: 'ayrapetyan.art',
+      destination: '/var/www/ayrapetyan.art/dev/',
+      compress: true,
+      archive: true,
+      delete: true
+    }))
+};
+
 export const json = series(deleteJson, mergeJson);
 
 /**
@@ -207,5 +219,7 @@ export const start = series(fonts, json, sprite, parallel(styles, views, scripts
 export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts, sitemap));
 
 export const deploy = series(build, rsyncDeploy);
+
+export const devDeploy = series(build, rsyncDevDeploy);
 
 export default dev;
