@@ -1,0 +1,29 @@
+{
+  "portfolio": {
+    "title": "Portfolio",
+    "breadcrumbs": [
+      {
+        "href": "#",
+        "name": "Portfolio"
+      }
+    ],
+    "filters": {
+      "title": "Portfolio filters",
+      "list": [
+        {
+          "name": "All",
+          "href": "/portfolio/",
+          "id": "all"
+        }, {
+          "name": "Art",
+          "href": "art.html",
+          "id": "art"
+        }, {
+          "name": "3D Model",
+          "href": "3d.html",
+          "id": "3d"
+        }
+      ]
+    }
+  }
+}

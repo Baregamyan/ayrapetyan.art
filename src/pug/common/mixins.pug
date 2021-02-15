@@ -45,3 +45,14 @@ mixin picture(path, pictureName, className, format, alt)
     ${path}/${pictureName}-desktop.${format} 2x`)
 
     img(class=className src=`${path}/${pictureName}-mobile@1x.${format}` srcset=`${path}/${pictureName}-mobile@2x.${format}` alt=alt)
+
+mixin filters(filters, currentType)
+  nav.filters
+    h2.title.filters__title.visually-hidden #{filters.title}
+    ul.filters__list
+      each filter in filters.list
+        li.filters__item
+          if currentType===filter.id
+            a.filters__link.filters__link--active(href=null id=filter.id) #{filter.name}
+          else 
+            a.filters__link(href=filter.href id=filter.id) #{filter.name}

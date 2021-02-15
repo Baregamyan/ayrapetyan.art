@@ -54,7 +54,7 @@
 		"profession": "3d artist",
 		"desc": "Welcome to my little 'room' of projects and ideas. I am a 3D Artist that likes to experiment with various objects and concepts.",
 		"portfolio": {
-			"link": "portfolio.html",
+			"link": "/portfolio",
 			"text": "Portfolio"
 		},
 		"slides": [
@@ -116,22 +116,13 @@
 			"name": "Главная"
 		}
 	],
-	"models": {
-		"title": "Models",
-		"breadcrumbs": [
-			{
-				"href": "#",
-				"name": "Models"
-			}
-		]
-	},
 	"nav": {
 		"aria": {
 			"label": "Main navigation"
 		},
 		"list": [
 			{
-				"href": "/portfolio.html",
+				"href": "/portfolio/",
 				"name": "Portfolio"
 			},
 			{
@@ -139,6 +130,35 @@
 				"name": "Resume"
 			}
 		]
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"breadcrumbs": [
+			{
+				"href": "#",
+				"name": "Portfolio"
+			}
+		],
+		"filters": {
+			"title": "Portfolio filters",
+			"list": [
+				{
+					"name": "All",
+					"href": "/portfolio/",
+					"id": "all"
+				},
+				{
+					"name": "Art",
+					"href": "art.html",
+					"id": "art"
+				},
+				{
+					"name": "3D Model",
+					"href": "3d.html",
+					"id": "3d"
+				}
+			]
+		}
 	},
 	"resume": {
 		"aside": {
@@ -186,7 +206,19 @@
 						"height": "19"
 					}
 				}
-			]
+			],
+			"pdf": {
+				"href": "/resume.pdf",
+				"aria": {
+					"label": "Open resume in PDF format"
+				},
+				"svg": {
+					"id": "pdf-file",
+					"viewBox": "0 0 482.14 482.14",
+					"width": "80",
+					"height": "80"
+				}
+			}
 		},
 		"title": "Resume",
 		"intro": [
@@ -215,40 +247,44 @@
 				]
 			},
 			{
-				"title": "Work Experience",
-				"list": [
-					{
-						"term": "June 2010 — August 2010",
-						"definition": "HUV, Web design assistant (Yerevan Armenia)"
-					},
-					{
-						"term": "May 2013 — June 2014",
-						"definition": "Freelance (Uzbekistan, Russia)"
-					},
-					{
-						"term": "July 2015 — September 2015",
-						"definition": "SAB, Game Developer (Tashkent, Uzbekistan)"
-					},
-					{
-						"term": "January 2016",
-						"definition": "Freelance"
-					}
-				]
-			},
-			{
 				"title": "Volunteering",
 				"list": [
 					{
 						"term": "December 2015 – June 2016 ",
-						"definition": "Volunteer at «Ayo» (Fund of Armenian Relief), Project Manager Assistant, Content Creator (Yerevan, Armenia)"
+						"definition": "Volunteer at «Ayo» (Fund of Armenian Relief) <br>Project Manager Assistant, Content Creator (Yerevan, Armenia)"
+					},
+					{
+						"term": "January 2016 – June 2016",
+						"definition": "Technology and Science Dynamics (TSD) <br>Game Developer (Yerevan, Armenia) <br><i><b>Notable mention:</b> Creating exclusive game app (3D sidescroller) for the Armtab tablets and Armphone smartphones.</i>"
 					},
 					{
 						"term": "June 2016 – October 2016",
-						"definition": "Yerevan Productions,  Graphic Designer (Yerevan Armenia)"
+						"definition": "Yerevan Productions <br>Graphic Designer (Yerevan Armenia) <br><i><b>Notable mention:</b> Designed and made concept art of a statue in one of the parks of Yerevan.</i>"
 					},
 					{
 						"term": "November 2015 – November 2016",
-						"definition": "Birthright Armenia, Participation in various community services, forums and excursions (Yerevan, Armenia)"
+						"definition": "Birthright Armenia <br>Participation in various community services, forums and excursions (Yerevan, Armenia) <br><i><b>Notable mention:</b> Painting kids’ departments in hospital, sewing teddy bears for children, making first aid kits for charitable organizations, planting trees in south-eastern part of Armenia, gathered items for the orphanages.</i>"
+					}
+				]
+			},
+			{
+				"title": "Work Experience",
+				"list": [
+					{
+						"term": "June 2010 — August 2010",
+						"definition": "HUV, Web design assistant (Yerevan Armenia), <br>Web site design and in-office assistance"
+					},
+					{
+						"term": "May 2013 — June 2014",
+						"definition": "Freelance (Uzbekistan, Russia), <br>Characters and environment design"
+					},
+					{
+						"term": "July 2015 — September 2015",
+						"definition": "SAB, Game Developer (Tashkent, Uzbekistan), <br>Mobile IOS game, 2d sidescroller"
+					},
+					{
+						"term": "January 2016",
+						"definition": "Freelance, Assets creation"
 					}
 				]
 			},
@@ -261,7 +297,7 @@
 					},
 					{
 						"term": "Computer skills:",
-						"definition": "Familiar with: 3Ds Max, Zbrush, Maya, Audacity.<br>Advanced: LibreOffice Writer, LibreOffice Impress, Blender, Photoshop CS6, Krita"
+						"definition": "Blender(advanced), Photoshop (advanced), Krita (advanced), LibreOffice (advanced), 3Ds Max(basic), Zbrush(basic), Maya(basic), Audacity(basic)"
 					},
 					{
 						"term": "Hobbies:",
@@ -271,109 +307,95 @@
 			}
 		]
 	},
-	"works": {
-		"title": "My Latest Works<span>.</span>",
-		"desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
-		"more": {
-			"href": "/models/",
-			"text": "All models"
+	"works": [
+		{
+			"name": "Tribal Beast",
+			"id": "tribal-beast",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Tribal Beast model page"
+			}
 		},
-		"list": [
-			{
-				"name": "Tribal Beast",
-				"id": "tribal-beast",
-				"aria": {
-					"label": "Go to Tribal Beast model page"
-				}
-			},
-			{
-				"name": "Room Furnishing",
-				"id": "room-furnishing",
-				"aria": {
-					"label": "Go to Room Furnishing model page"
-				}
-			},
-			{
-				"name": "Elf Warrior",
-				"id": "elf-warrior",
-				"aria": {
-					"label": "Go to Beast model page"
-				}
-			},
-			{
-				"name": "Arachna",
-				"id": "arachna",
-				"aria": {
-					"label": "Go to Arachna model page"
-				}
-			},
-			{
-				"name": "Low Poly",
-				"id": "low-poly",
-				"aria": {
-					"label": "Go to Low Poly model page"
-				}
-			},
-			{
-				"name": "Fool's idol",
-				"id": "fools-idol",
-				"aria": {
-					"label": "Go to Fool's Idol model page"
-				}
-			},
-			{
-				"name": "'Chair'",
-				"id": "chair",
-				"aria": {
-					"label": "Go to Chair model page"
-				}
-			},
-			{
-				"name": "Revolver",
-				"id": "revolver",
-				"aria": {
-					"label": "Go to Revolver model page"
-				}
-			},
-			{
-				"name": "'Heli'",
-				"id": "heli",
-				"aria": {
-					"label": "Go to Heli (helicopter) model page"
-				}
-			},
-			{
-				"name": "Monster",
-				"id": "monster",
-				"aria": {
-					"label": "Go to Monster model page"
-				}
+		{
+			"name": "Room Furnishing",
+			"id": "room-furnishing",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Room Furnishing model page"
 			}
-		],
-		"controls": [
-			{
-				"navigation": "prev",
-				"text": "<",
-				"aria": {
-					"label": "Previously work"
-				}
-			},
-			{
-				"navigation": "next",
-				"text": ">",
-				"aria": {
-					"label": "Next work"
-				}
+		},
+		{
+			"name": "Elf Warrior",
+			"id": "elf-warrior",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Beast model page"
 			}
-		]
-	},
+		},
+		{
+			"name": "Arachna",
+			"id": "arachna",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Arachna model page"
+			}
+		},
+		{
+			"name": "Low Poly",
+			"id": "low-poly",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Low Poly model page"
+			}
+		},
+		{
+			"name": "Fool's idol",
+			"id": "fools-idol",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Fool's Idol model page"
+			}
+		},
+		{
+			"name": "'Chair'",
+			"id": "chair",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Chair model page"
+			}
+		},
+		{
+			"name": "Revolver",
+			"id": "revolver",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Revolver model page"
+			}
+		},
+		{
+			"name": "'Heli'",
+			"id": "heli",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Heli (helicopter) model page"
+			}
+		},
+		{
+			"name": "Monster",
+			"id": "monster",
+			"type": "3d",
+			"aria": {
+				"label": "Go to Monster model page"
+			}
+		}
+	],
 	"arachna": {
 		"id": "arachna",
 		"name": "Arachna",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -395,8 +417,8 @@
 		"name": "'Chair'",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -418,8 +440,8 @@
 		"name": "Elf Warrior",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -447,8 +469,8 @@
 		"name": "Fools Idol",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -470,8 +492,8 @@
 		"name": "'Heli'",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -490,8 +512,8 @@
 		"name": "Low Poly",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -513,8 +535,8 @@
 		"name": "Monster",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -533,8 +555,8 @@
 		"name": "Revolver",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -553,8 +575,8 @@
 		"name": "Room Furnishing",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "",
@@ -573,8 +595,8 @@
 		"name": "Tribal Beast",
 		"breadcrumbs": [
 			{
-				"href": "/models/",
-				"name": "Models"
+				"href": "/portfolio/",
+				"name": "Portfolio"
 			},
 			{
 				"href": "#",

@@ -1,0 +1,34 @@
+.filters {
+  margin: 0 auto;
+}
+
+.filters__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filters__item {
+  &:last-of-type {
+    & .filters__link {
+      margin-right: 0;
+    }
+  }
+}
+
+.filters__link {
+  text-decoration: none;
+  color: $color-base;
+  margin-right: 10px;
+  opacity: 0.8;
+  &--active {
+    font-family: $font-family-title;
+    opacity: 1;
+    &:hover,
+    &:active {
+      color: $color-base;
+    }
+  }
+}

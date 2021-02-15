@@ -4,7 +4,7 @@
     "profession": "3d artist",
     "desc": "Welcome to my little 'room' of projects and ideas. I am a 3D Artist that likes to experiment with various objects and concepts.",
     "portfolio": {
-      "link": "portfolio.html",
+      "link": "/portfolio",
       "text": "Portfolio"
     },
     "slides": [
