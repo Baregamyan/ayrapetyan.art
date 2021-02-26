@@ -2,7 +2,7 @@
   font-weight: 400;
   font-family: "Assistant";
 
-  font-display: swap;
+  font-display: block;
   src: url("../fonts/assistant-400.woff2") format("woff2"),
        url("../fonts/assistant-400.woff2") format("woff");
 }
@@ -11,7 +11,7 @@
   font-weight: 700;
   font-family: "Poppins";
 
-  font-display: swap;
+  font-display: block;
   src: url("../fonts/poppins-700.woff2") format("woff2"),
        url("../fonts/poppins-700.woff") format("woff");
 }

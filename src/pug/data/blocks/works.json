@@ -1,88 +1,75 @@
 {
-  "works": {
-    "title": "My Latest Works<span>.</span>",
-    "desc": "Select all the text layers you want to generate ‘Lorem ipsum’ for then click ‘Generate’ — it will generate for each layer uniquely.",
-    "more": {
-      "href": "/models/",
-      "text": "All models"
-    },
-    "list": [
-      {
-        "name": "Tribal Beast",
-        "id": "tribal-beast",
-        "aria": {
-          "label": "Go to Tribal Beast model page"
-        }
-      }, {
-        "name": "Room Furnishing",
-        "id": "room-furnishing",
-        "aria": {
-          "label": "Go to Room Furnishing model page"
-        }
-      }, {
-        "name": "Elf Warrior",
-        "id": "elf-warrior",
-        "aria": {
-          "label": "Go to Beast model page"
-        }
-      }, {
-        "name": "Arachna",
-        "id": "arachna",
-        "aria": {
-          "label": "Go to Arachna model page"
-        }
-      }, {
-        "name": "Low Poly",
-        "id": "low-poly",
-        "aria": {
-          "label": "Go to Low Poly model page"
-        }
-      }, {
-        "name": "Fool's idol",
-        "id": "fools-idol",
-        "aria": {
-          "label": "Go to Fool's Idol model page"
-        }
-      }, {
-        "name": "'Chair'",
-        "id": "chair",
-        "aria": {
-          "label": "Go to Chair model page"
-        }
-      }, {
-        "name": "Revolver",
-        "id": "revolver",
-        "aria": {
-          "label": "Go to Revolver model page"
-        }
-      }, {
-        "name": "'Heli'",
-        "id": "heli",
-        "aria": {
-          "label": "Go to Heli (helicopter) model page"
-        }
-      }, {
-        "name": "Monster",
-        "id": "monster",
-        "aria": {
-          "label": "Go to Monster model page"
-        }
+  "works": [
+    {
+      "name": "Tribal Beast",
+      "id": "tribal-beast",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Tribal Beast model page"
       }
-    ],
-    "controls": [
-      {
-        "navigation": "prev",
-        "text": "<",
-        "aria": {
-          "label": "Previously work"
-        }
-      }, {
-        "navigation": "next",
-        "text": ">",
-        "aria": {
-          "label": "Next work"
-        }
+    }, {
+      "name": "Room Furnishing",
+      "id": "room-furnishing",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Room Furnishing model page"
       }
-    ]
-  }
+    }, {
+      "name": "Elf Warrior",
+      "id": "elf-warrior",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Beast model page"
+      }
+    }, {
+      "name": "Arachna",
+      "id": "arachna",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Arachna model page"
+      }
+    }, {
+      "name": "Low Poly",
+      "id": "low-poly",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Low Poly model page"
+      }
+    }, {
+      "name": "Fool's idol",
+      "id": "fools-idol",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Fool's Idol model page"
+      }
+    }, {
+      "name": "'Chair'",
+      "id": "chair",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Chair model page"
+      }
+    }, {
+      "name": "Revolver",
+      "id": "revolver",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Revolver model page"
+      }
+    }, {
+      "name": "'Heli'",
+      "id": "heli",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Heli (helicopter) model page"
+      }
+    }, {
+      "name": "Monster",
+      "id": "monster",
+      "type": "3d",
+      "aria": {
+        "label": "Go to Monster model page"
+      }
+    }
+  ]
 }

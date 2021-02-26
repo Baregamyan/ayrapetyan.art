@@ -27,3 +27,7 @@ section.resume
               svg.resume__detail-svg(viewBox=detail.svg.viewbox width=detail.svg.width height=detail.svg.height)
                 use(xlink:href=`#${detail.svg.id}`)
               p.resume__detail-text #{detail.text}
+      a.resume__pdf-link(href=resume.aside.pdf.href target="_blank" aria-label=resume.aside.pdf.aria.label)
+        svg.resume__pdf-icon(viewBox=resume.aside.pdf.svg.viewBox width=resume.aside.pdf.svg.width height=resume.aside.pdf.svg.height)
+          use(xlink:href=`#${resume.aside.pdf.svg.id}`)
+     

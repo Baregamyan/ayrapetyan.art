@@ -1,0 +1,13 @@
+block portfolio
+  section.portfolio
+    h1.title.title--huge.portfolio__title #{portfolio.title}
+    +breadcrumbs(portfolio.breadcrumbs)
+    +filters(portfolio.filters, filteredType)
+    ul.portfolio__list
+      each work in works
+        if filteredType === work.type || filteredType === "all"
+          - let imagePath = `/images/portfolio/${work.id}`
+            li.portfolio__item
+              a.portfolio__link(href=`/portfolio/${work.id}.html` aria-label=`Go to ${work.name}`)
+                h3.portfolio__subtitle #{work.name}
+                +picture(imagePath,`${work.id}-1`,"portfolio__img","png",`work ${work.name} 1`)

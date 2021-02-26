@@ -83,6 +83,7 @@
 
 .resume__details {
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   list-style: none;
 
@@ -109,4 +110,19 @@
 .resume__detail-text {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.resume__pdf-link {
+  display: inline-flex;
+  &:hover,
+  &:active {
+    & .resume__pdf-icon {
+      fill: $color-primary;
+    }
+  }
+}
+
+.resume__pdf-icon {
+  transition: $transition;
+  fill: $color-base;
 }
