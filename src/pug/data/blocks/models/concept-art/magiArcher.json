@@ -1,0 +1,19 @@
+{
+  "magiArcher": {
+    "id": "magi-archer",
+    "name": "Long Handles Variants",
+    "type": "concept-art",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/concept-art/",
+        "name": "Concept Art"
+      }, {
+        "href": "",
+        "name": "Magi Archer"
+      }
+    ]
+  }
+}

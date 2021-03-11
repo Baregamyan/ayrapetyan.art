@@ -1,0 +1,20 @@
+extends ../../../common/layout
+
+block vars
+  -
+    const data = {
+      href: "portfolio/concept-art/",
+      main: false,
+      title: "Concept Arts - Yervand Ayrapetyan",
+      description: "Yervand Ayrapetyan's Concept Arts models",
+      keywords: "Yervan Ayrapetyan, 3D Artist, portfolio",
+      url: "http://ayrapetyan.art/portfolio/concept-art/",
+      image: "og",
+      name: "Yervand Ayrapetyan's web-site"
+    }
+    let filteredType = "concept-art"
+
+block content
+  .overlay
+  include ../../../blocks/portfolio.pug
+  block portfolio

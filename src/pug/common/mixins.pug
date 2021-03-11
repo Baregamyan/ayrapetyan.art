@@ -16,15 +16,16 @@ mixin model(model)
     +breadcrumbs(model.breadcrumbs)
     .model__wrapper
       p.model__text.model__text--main #{model.text}
-      a.model__link.model__link--main(href=`/images/models/${model.id}/${model.id}-1.png` target="_blank")
-        +picture(`/images/portfolio/${model.id}`, `${model.id}-1`, "model__image", "png", `Model ${model.alt} 1`)
+      a.model__link.model__link--main(href=`/images/models/${model.type}/${model.id}/${model.id}-1.png` target="_blank")
+        +picture(`/images/portfolio/${model.type}/${model.id}`, `${model.id}-1`, "model__image", "png", `Model ${model.alt} 1`)
       .model__blocks
-        each block, index in model.blocks
-          .model__block
-            p.model__text #{block.text}
-            - let imageSrc = `/images/portfolio/${model.id}`
-            a.model__link(href=`${imageSrc}-${index + 2}-desktop@2x.png` target="_blank")
-              +picture(imageSrc, `${model.id}-${index + 2}`, `model__image`, 'png', `${model.name} Model ${index + 2}`)
+        if model.blocks
+          each block, index in model.blocks
+            .model__block
+              p.model__text #{block.text}
+              - let imageSrc = `/images/portfolio/${model.type}/${model.id}`
+              a.model__link(href=`${imageSrc}-${index + 2}-desktop@2x.png` target="_blank")
+                +picture(imageSrc, `${model.id}-${index + 2}`, `model__image`, 'png', `${model.name} Model ${index + 2}`)
 
 //- Picture tag for image
 mixin picture(path, pictureName, className, format, alt)

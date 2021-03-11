@@ -4,10 +4,10 @@ block portfolio
     +breadcrumbs(portfolio.breadcrumbs)
     +filters(portfolio.filters, filteredType)
     ul.portfolio__list
-      each work in works
+      each work, index in works
         if filteredType === work.type || filteredType === "all"
-          - let imagePath = `/images/portfolio/${work.id}`
+          - let imagePath = `/images/portfolio/${work.type}/${work.id}`
             li.portfolio__item
-              a.portfolio__link(href=`/portfolio/${work.id}.html` aria-label=`Go to ${work.name}`)
+              a.portfolio__link(href=`/portfolio/${work.type}/${work.id}.html` aria-label=`Go to ${work.name}`)
                 h3.portfolio__subtitle #{work.name}
-                +picture(imagePath,`${work.id}-1`,"portfolio__img","png",`work ${work.name} 1`)
+                +picture(imagePath,`${work.id}-1`,"portfolio__img","png",`work ${work.name}`)

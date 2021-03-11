@@ -1,0 +1,27 @@
+{
+  "chair": {
+    "id": "chair",
+    "name": "'Chair'",
+    "type": "3d",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/3d/",
+        "name": "3d"
+      }, {
+        "href": "",
+        "name": "'Chair'"
+      }
+    ],
+    "text": "Original idea was to create photorealistic simple chair, but as most other projects it grew a bit into small research in node texture experimentation that is present in Blender software.",
+    "blocks": [
+      {
+        "text": "The chair and nearby objects should invoke certain comfiness and small desire to sit, relax and sip some of the tea."
+      }, {
+        "text": "Design wise it may confuse viewer as the design of table and chair varies, former is of feeling simple grandmotherly tea set, the latter of mid-tier level of design pompousness."
+      }
+    ]
+  }
+}

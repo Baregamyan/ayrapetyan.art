@@ -1,0 +1,27 @@
+{
+  "foolsIdol": {
+    "id": "fools-idol",
+    "name": "Fools Idol",
+    "type": "3d",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/3d/",
+        "name": "3d"
+      }, {
+        "href": "",
+        "name": "Fools Idol"
+      }
+    ],
+    "text": "This model is in a sense remake of 2009 Demon’s Souls Fool’s Idol. Was part of my Master Thesis project.",
+    "blocks": [
+      {
+        "text": "The main goal was to reimagine the boss of the game, trying to raise the level of detail and possibly incorporating more lore aspect into the model. Another point that was tried to be invoked is   sense of nastalgia."
+      }, {
+        "text": "Another point that was tried to be invoked is sense of nastalgia. Memories such as movements, visuals remind of those times, and in case of this a bit of rigidness as a puppet, no facial movement, 80% resemblance of attire. Magic invocation is also part of it."
+      }
+    ]
+  }
+}

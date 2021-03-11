@@ -1,0 +1,18 @@
+extends ../../../common/layout
+
+block vars
+  -
+    const data = {
+      href: `models/3d/${roomFurnishing.id}.html`,
+      main: false,
+      title: `${roomFurnishing.name} Model - Yervand Ayrapetyan`,
+      description: `Yervand Ayrapetyan's ${roomFurnishing.name} model`,
+      keywords: `${roomFurnishing.name}, 3D Model, Yervand Ayrapetyan`,
+      url: `http://ayrapetyan.art/models/3d/${roomFurnishing.id}.html`,
+      image: "og",
+      name: "Yervand Ayrapetyan's web-site"
+    }
+
+block content
+  .overlay
+  +model(roomFurnishing)

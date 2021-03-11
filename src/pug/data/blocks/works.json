@@ -70,6 +70,69 @@
       "aria": {
         "label": "Go to Monster model page"
       }
+    }, {
+      "name": "Bow Variants",
+      "id": "bow-variants",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Bow Variants concept art page"
+      }
+    }, {
+      "name": "Demon Boss",
+      "id": "demon-boss",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Demon Boss concept art page"
+      }
+    }, {
+      "name": "Drei",
+      "id": "drei",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Drei concept art page"
+      }
+    }, {
+      "name": "Elf Hybrid",
+      "id": "elf-hybrid",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Elf Hybrid concept art page"
+      }
+    }, {
+      "name": "Intersection",
+      "id": "intersection",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Intersection concept art page"
+      }
+    }, {
+      "name": "Long Handles Variants",
+      "id": "long-handles-variants",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Long Handles Variants concept art page"
+      }
+    }, {
+      "name": "Magi Archer",
+      "id": "magi-archer",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Magi Archer concept art page"
+      }
+    }, {
+      "name": "Mecha Magi",
+      "id": "mecha-magi",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Mecha Magi concept art page"
+      }
+    }, {
+      "name": "Traveling Kid",
+      "id": "traveling-kid",
+      "type": "concept-art",
+      "aria": {
+        "label": "Go to Traveling Kid concept art page"
+      }
     }
   ]
 }

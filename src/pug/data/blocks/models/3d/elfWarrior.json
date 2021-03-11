@@ -1,0 +1,32 @@
+{
+  "elfWarrior": {
+    "id": "elf-warrior",
+    "name": "Elf Warrior",
+    "type": "3d",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/3d/",
+        "name": "3d"
+      }, {
+        "href": "",
+        "name": "Elf Warrior"
+      }
+    ],
+    "text": "As the name implies original idea was to re-imagine Elves of fables to a more grounded notion, with the addition of race mixes, though taking into consideration supernatural and physical description of this race. The result is a character with a military officer glance.",
+    "blocks": [
+      {
+        "text": "Modifications towards agile nature of the Elves and credibility of movement with the armor were a priority."
+      }, {
+        "text": "Absen of sleeves and tells somewhat of the climate, place the character resides in and person’s taste - fancy sleeve on one side of the arm."
+      }, {
+        "text": "This character was optimized for game implementation. There is still room for lowering poly count."
+
+      }, {
+        "text": "More details and objects are in need to be added. Retopology, texturing and UV mapping except for rigging and animations are present in this model."
+      }
+    ]
+  }
+}

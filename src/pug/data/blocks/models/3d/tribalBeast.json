@@ -1,0 +1,27 @@
+{
+  "tribalBeast": {
+    "id": "tribal-beast",
+    "name": "Tribal Beast",
+    "type": "3d",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/3d/",
+        "name": "3d"
+      }, {
+        "href": "#",
+        "name": "Tribal Beast"
+      }
+    ],
+    "text": "The first idea was of a monster with the large hands accentuating its strength. Along its creation the feeling it gave was of a cunning and ruthless monster, reveling in violence. By the end of the work the idea of tribe-like beast came into mind, with characteristics of a lonely hunter.",
+    "blocks": [
+      {
+        "text": "Overall the design represents the archetype of monkey, gorilla specifically. Fur to weather harsh climate, Elongated thin fingers imply at its proficiency in crafting."
+      }, {
+        "text": "Proportions of the hands and fingers hint at rapid evolution of species that from more physical approach of action branches into homo sapiens way of progression and paranormal, in which mask plays important role, and more concrete route of illusion magic."
+      }
+    ]
+  }
+}

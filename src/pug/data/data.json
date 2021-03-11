@@ -148,13 +148,13 @@
 					"id": "all"
 				},
 				{
-					"name": "Art",
-					"href": "art.html",
-					"id": "art"
+					"name": "Concept Art",
+					"href": "/portfolio/concept-art/",
+					"id": "concept-art"
 				},
 				{
 					"name": "3D Model",
-					"href": "3d.html",
+					"href": "/portfolio/3d/",
 					"id": "3d"
 				}
 			]
@@ -387,15 +387,92 @@
 			"aria": {
 				"label": "Go to Monster model page"
 			}
+		},
+		{
+			"name": "Bow Variants",
+			"id": "bow-variants",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Bow Variants concept art page"
+			}
+		},
+		{
+			"name": "Demon Boss",
+			"id": "demon-boss",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Demon Boss concept art page"
+			}
+		},
+		{
+			"name": "Drei",
+			"id": "drei",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Drei concept art page"
+			}
+		},
+		{
+			"name": "Elf Hybrid",
+			"id": "elf-hybrid",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Elf Hybrid concept art page"
+			}
+		},
+		{
+			"name": "Intersection",
+			"id": "intersection",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Intersection concept art page"
+			}
+		},
+		{
+			"name": "Long Handles Variants",
+			"id": "long-handles-variants",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Long Handles Variants concept art page"
+			}
+		},
+		{
+			"name": "Magi Archer",
+			"id": "magi-archer",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Magi Archer concept art page"
+			}
+		},
+		{
+			"name": "Mecha Magi",
+			"id": "mecha-magi",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Mecha Magi concept art page"
+			}
+		},
+		{
+			"name": "Traveling Kid",
+			"id": "traveling-kid",
+			"type": "concept-art",
+			"aria": {
+				"label": "Go to Traveling Kid concept art page"
+			}
 		}
 	],
 	"arachna": {
 		"id": "arachna",
 		"name": "Arachna",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -415,10 +492,15 @@
 	"chair": {
 		"id": "chair",
 		"name": "'Chair'",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -438,10 +520,15 @@
 	"elfWarrior": {
 		"id": "elf-warrior",
 		"name": "Elf Warrior",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -467,10 +554,15 @@
 	"foolsIdol": {
 		"id": "fools-idol",
 		"name": "Fools Idol",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -490,10 +582,15 @@
 	"heli": {
 		"id": "heli",
 		"name": "'Heli'",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -510,10 +607,15 @@
 	"lowPoly": {
 		"id": "low-poly",
 		"name": "Low Poly",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -533,10 +635,15 @@
 	"monster": {
 		"id": "monster",
 		"name": "Monster",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -559,6 +666,10 @@
 				"name": "Portfolio"
 			},
 			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
+			},
+			{
 				"href": "",
 				"name": "Revolver"
 			}
@@ -573,10 +684,15 @@
 	"roomFurnishing": {
 		"id": "room-furnishing",
 		"name": "Room Furnishing",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "",
@@ -593,10 +709,15 @@
 	"tribalBeast": {
 		"id": "tribal-beast",
 		"name": "Tribal Beast",
+		"type": "3d",
 		"breadcrumbs": [
 			{
 				"href": "/portfolio/",
 				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/3d/",
+				"name": "3d"
 			},
 			{
 				"href": "#",
@@ -610,6 +731,177 @@
 			},
 			{
 				"text": "Proportions of the hands and fingers hint at rapid evolution of species that from more physical approach of action branches into homo sapiens way of progression and paranormal, in which mask plays important role, and more concrete route of illusion magic."
+			}
+		]
+	},
+	"bowVariants": {
+		"id": "bow-variants",
+		"name": "Bow Variants",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Bow Variants"
+			}
+		]
+	},
+	"demonBoss": {
+		"id": "demon-boss",
+		"name": "Demon Boss",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Demon Boss"
+			}
+		]
+	},
+	"drei": {
+		"id": "drei",
+		"name": "Drei",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Drei"
+			}
+		]
+	},
+	"elfHybrid": {
+		"id": "elf-hybrid",
+		"name": "Elf Hybrid",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Elf Hybrid"
+			}
+		]
+	},
+	"intersection": {
+		"id": "intersection",
+		"name": "Intersection",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Intersection"
+			}
+		]
+	},
+	"longHandlesVariants": {
+		"id": "long-handles-variants",
+		"name": "Long Handles Variants",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Long Handles Variants"
+			}
+		]
+	},
+	"magiArcher": {
+		"id": "magi-archer",
+		"name": "Long Handles Variants",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Magi Archer"
+			}
+		]
+	},
+	"mechaMagi": {
+		"id": "mecha-magi",
+		"name": "Mecha Magi",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Mecha Magi"
+			}
+		]
+	},
+	"travelingKid": {
+		"id": "traveling-kid",
+		"name": "Traveling Kid",
+		"type": "concept-art",
+		"breadcrumbs": [
+			{
+				"href": "/portfolio/",
+				"name": "Portfolio"
+			},
+			{
+				"href": "/portfolio/concept-art/",
+				"name": "Concept Art"
+			},
+			{
+				"href": "",
+				"name": "Traveling Kid"
 			}
 		]
 	}

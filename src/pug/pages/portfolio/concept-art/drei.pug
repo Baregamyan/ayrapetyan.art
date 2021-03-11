@@ -1,0 +1,18 @@
+extends ../../../common/layout
+
+block vars
+  -
+    const data = {
+      href: `portfolio/concept-art/${drei.id}.html`,
+      main: false,
+      title: `${drei.name} Model - Yervand Ayrapetyan`,
+      description: `Yervand Ayrapetyan's ${drei.name} model`,
+      keywords: `${drei.name}, 3D Model, Yervand Ayrapetyan`,
+      url: `http://ayrapetyan.art/portfolio/concept-art/${drei.id}.html`,
+      image: "og",
+      name: "Yervand Ayrapetyan's web-site"
+    }
+
+block content
+  .overlay
+  +model(drei)

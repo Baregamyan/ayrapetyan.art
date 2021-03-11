@@ -1,0 +1,25 @@
+{
+  "heli": {
+    "id": "heli",
+    "name": "'Heli'",
+    "type": "3d",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/3d/",
+        "name": "3d"
+      }, {
+        "href": "",
+        "name": "'Heli'"
+      }
+    ],
+    "text": "The main idea of the creation of this model was to imagine how advanced helicopters will be in a not distant future.",
+    "blocks": [
+      {
+        "text": "Though mostly project wasn’t finished, the base and parts of the model are optimized."
+      }
+    ]
+  }
+}

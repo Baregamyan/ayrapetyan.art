@@ -1,0 +1,18 @@
+extends ../../../common/layout
+
+block vars
+  -
+    const data = {
+      href: `portfolio/3d/${chair.id}.html`,
+      main: false,
+      title: `${chair.name} Model - Yervand Ayrapetyan`,
+      description: `Yervand Ayrapetyan's ${chair.name} model`,
+      keywords: `${chair.name}, 3D Model, Yervand Ayrapetyan`,
+      url: `http://ayrapetyan.art/portfolio/3d/${chair.id}.html`,
+      image: "og",
+      name: "Yervand Ayrapetyan's web-site"
+    }
+
+block content
+  .overlay
+  +model(chair)

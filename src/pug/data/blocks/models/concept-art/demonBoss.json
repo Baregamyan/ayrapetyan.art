@@ -1,0 +1,19 @@
+{
+  "demonBoss": {
+    "id": "demon-boss",
+    "name": "Demon Boss",
+    "type": "concept-art",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/concept-art/",
+        "name": "Concept Art"
+      }, {
+        "href": "",
+        "name": "Demon Boss"
+      }
+    ]
+  }
+}

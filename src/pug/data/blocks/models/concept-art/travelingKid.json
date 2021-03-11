@@ -1,0 +1,19 @@
+{
+  "travelingKid": {
+    "id": "traveling-kid",
+    "name": "Traveling Kid",
+    "type": "concept-art",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/concept-art/",
+        "name": "Concept Art"
+      }, {
+        "href": "",
+        "name": "Traveling Kid"
+      }
+    ]
+  }
+}

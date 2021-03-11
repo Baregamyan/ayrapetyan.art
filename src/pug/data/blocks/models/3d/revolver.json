@@ -1,0 +1,24 @@
+{
+  "revolver": {
+    "id": "revolver",
+    "name": "Revolver",
+    "breadcrumbs": [
+      {
+        "href": "/portfolio/",
+        "name": "Portfolio"
+      }, {
+        "href": "/portfolio/3d/",
+        "name": "3d"
+      }, {
+        "href": "",
+        "name": "Revolver"
+      }
+    ],
+    "text": "The model is of revolver colt with some minor modifications. The design was mostly left intact as the main goal was to represent it in a standard fashion and research its intricacies.",
+    "blocks": [
+      {
+        "text": "Revolver is optimized in regards to polygon count, has UV map and textures which are not fully ‘backed’ (Blender has node system and permits live modifications on texture with render)."
+      }
+    ]
+  }
+}
