@@ -103,8 +103,8 @@ export const views = () => src(`${path.views.compile}**/*.pug`)
     basedir: path.views.root
   }))
   .pipe(dest(path.views.save))
-  .pipe(htmlValidator())
-  .pipe(htmlValidator.reporter())
+  // .pipe(htmlValidator())
+  // .pipe(htmlValidator.reporter())
   .pipe(rename({
     extname: '.php'
   }))

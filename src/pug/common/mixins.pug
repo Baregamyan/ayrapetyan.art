@@ -26,6 +26,11 @@ mixin model(model)
               - let imageSrc = `/images/portfolio/${model.type}/${model.id}`
               a.model__link(href=`${imageSrc}-${index + 2}-desktop@2x.png` target="_blank")
                 +picture(imageSrc, `${model.id}-${index + 2}`, `model__image`, 'png', `${model.name} Model ${index + 2}`)
+    .model__viewer
+      .model__viewer-wrapper
+        img.model__viewer-image(src="#" width=200 height=200 alt="#")
+        button.model__viewer-close-button(type="button" aria-label="Close picture viewer picture")
+          span
 
 //- Picture tag for image
 mixin picture(path, pictureName, className, format, alt)
@@ -45,7 +50,7 @@ mixin picture(path, pictureName, className, format, alt)
     source(media="(min-width: 786px)" srcset=`${path}/${pictureName}-desktop.${format} 1x,
     ${path}/${pictureName}-desktop.${format} 2x`)
 
-    img(class=className src=`${path}/${pictureName}-mobile@1x.${format}` srcset=`${path}/${pictureName}-mobile@2x.${format}` alt=alt width=200 height=200)
+    img(class=className src=`${path}/${pictureName}-mobile@1x.${format}` srcset=`${path}/${pictureName}-mobile@2x.${format}` alt=alt sizes="100vw" width=200 height=200)
 
 mixin filters(filters, currentType)
   nav.filters

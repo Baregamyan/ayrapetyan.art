@@ -59,53 +59,75 @@
 		},
 		"slides": [
 			{
-				"id": "tribal-beast",
 				"name": "Tribal Beast",
+				"number": 1,
+				"id": "tribal-beast",
 				"format": "png"
 			},
 			{
-				"name": "Room Furnishing",
-				"id": "room-furnishing",
+				"name": "Tribal Beast",
+				"number": 2,
+				"id": "tribal-beast",
+				"format": "png"
+			},
+			{
+				"name": "Tribal Beast",
+				"number": 3,
+				"id": "tribal-beast",
 				"format": "png"
 			},
 			{
 				"name": "Elf Warrior",
+				"number": 1,
+				"id": "elf-warrior",
+				"format": "png"
+			},
+			{
+				"name": "Elf Warrior",
+				"number": 2,
+				"id": "elf-warrior",
+				"format": "png"
+			},
+			{
+				"name": "Elf Warrior",
+				"number": 3,
 				"id": "elf-warrior",
 				"format": "png"
 			},
 			{
 				"name": "Arachna",
+				"number": 1,
 				"id": "arachna",
 				"format": "png"
 			},
 			{
-				"name": "Low Poly",
-				"id": "low-poly",
+				"name": "Arachna",
+				"number": 2,
+				"id": "arachna",
+				"format": "png"
+			},
+			{
+				"name": "Arachna",
+				"number": 3,
+				"id": "arachna",
 				"format": "png"
 			},
 			{
 				"name": "Fool's idol",
+				"number": 1,
 				"id": "fools-idol",
 				"format": "png"
 			},
 			{
-				"name": "'Chair'",
-				"id": "chair",
+				"name": "Fool's idol",
+				"number": 2,
+				"id": "fools-idol",
 				"format": "png"
 			},
 			{
-				"name": "Revolver",
-				"id": "revolver",
-				"format": "png"
-			},
-			{
-				"name": "'Heli'",
-				"id": "heli",
-				"format": "png"
-			},
-			{
-				"name": "Monster",
-				"id": "monster",
+				"name": "Fool's idol",
+				"number": 3,
+				"id": "fools-idol",
 				"format": "png"
 			}
 		]
@@ -185,8 +207,8 @@
 				{
 					"modifyer": "mail",
 					"type": "mailto",
-					"href": "ains.spear@gmail.com",
-					"text": "ains.spear@gmail.com",
+					"href": "ains.grave@gmail.com",
+					"text": "ains.grave@gmail.com",
 					"svg": {
 						"id": "mail",
 						"viewbox": "0 0 15 19",
