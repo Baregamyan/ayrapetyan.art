@@ -50,6 +50,7 @@ export class ModelViewer {
 
     this.viewer.removeEventListener(`click`, this.onViewerClick);
     document.removeEventListener(`keydown`, this.onDocumentKeydown);
+    this.bigImage.setAttribute(`src`, null)
   }
 
   viewerOverlayClick(evt) {

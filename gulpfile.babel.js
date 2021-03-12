@@ -44,7 +44,7 @@ const path = {
     compile: `${dirs.src}/sass/style.scss`,
     save: `${dirs.dest}/css/`
   },
-views: {
+  views: {
     root: `${dirs.src}/pug/`,
     compile: `${dirs.src}/pug/pages/`,
     save: `${dirs.dest}`
@@ -64,6 +64,10 @@ views: {
   },
   sitemap: {
     root: `${dirs.src}/sitemap.xml`,
+    save: `${dirs.dest}/`
+  },
+  resume: {
+    root: `${dirs.src}/resume.pdf`,
     save: `${dirs.dest}/`
   }
 };
@@ -179,6 +183,11 @@ export const sitemap = () => {
     .pipe(dest(`${path.sitemap.save}`))
 };
 
+export const resume = () => {
+  return src(path.resume.root)
+    .pipe(dest(path.resume.save))
+};
+
 
 const rsyncDeploy = () => {
   return src(`${dirs.dest}/**`)
@@ -216,7 +225,7 @@ export const start = series(fonts, json, sprite, parallel(styles, views, scripts
 /**
  * Tasks for build
  */
-export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts, sitemap));
+export const build = series(clean, json, fonts, sprite, parallel(styles, views, images, scripts, sitemap, resume));
 
 export const deploy = series(build, rsyncDeploy);
 
