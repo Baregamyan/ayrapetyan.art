@@ -25,7 +25,6 @@ export class ModelViewer {
   show() {
     this.bigImage.setAttribute(`src`, this.currentImage.getAttribute(`src`));
     this.bigImage.setAttribute(`srcset`, this.currentImage.getAttribute(`srcset`));
-    console.log(this.currentImage)
 
     document.body.classList.toggle(`overlay-open`, true);
 
