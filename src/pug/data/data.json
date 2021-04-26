@@ -227,6 +227,28 @@
 						"width": "15",
 						"height": "19"
 					}
+				},
+				{
+					"modifyer": "linkedin",
+					"href": "https://www.linkedin.com/in/yervand-ayrapetyan-069b4120a/",
+					"text": "linkedin",
+					"svg": {
+						"id": "linkedin",
+						"viewbox": "0 0 15 19",
+						"width": "15",
+						"height": "19"
+					}
+				},
+				{
+					"modifyer": "facebook",
+					"href": "https://www.facebook.com/Ains.17/",
+					"text": "facebook",
+					"svg": {
+						"id": "facebook",
+						"viewbox": "0 0 15 19",
+						"width": "15",
+						"height": "19"
+					}
 				}
 			],
 			"pdf": {
